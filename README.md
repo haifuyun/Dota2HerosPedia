@@ -2,6 +2,10 @@
 
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/slideMenu.png?raw=true)
 
+APP的整个功能分布(视频，英雄，物品，关于)，通过SlideMenu来切换不同的Controller
+
+![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/06.gif?raw=true)
+
 
 Dota2英雄列表及英雄背景和技能详细介绍，技能视频播放
 
@@ -20,8 +24,6 @@ Dota2游戏物品分类及物品列表，物品详细介绍（属性，合成方
 
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/05.gif?raw=true)
 
-APP的整个功能分布(视频，英雄，物品，关于)，通过SlideMenu来切换不同的Controller
 
-![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/06.gif?raw=true)
 
 

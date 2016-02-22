@@ -1,10 +1,8 @@
 # Dota2HerosPedia
 
-APP有4个主界面，分为1视频 2英雄 3物品 4关于，通过slideMenu来切换主视图.
+APP有4个主界面，分为(视频，英雄，物品，关于)，通过slideMenu来切换主视图.
 
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/slideMenu.png?raw=true)
-
-APP的整个功能分布(视频，英雄，物品，关于)，通过SlideMenu来切换不同的Controller
 
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/06.gif?raw=true)
 

@@ -1,16 +1,16 @@
 # Dota2HerosPedia
 
 
-Dota2英雄列表及英雄背景和技能详细介绍，技能视频播放
 
 项目界面
 
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/slideMenu.png?raw=true)
-![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/videoList.png?raw=true)
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/heroList.png?raw=true)
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/itemsList.png?raw=true)
+![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/videoList.png?raw=true)
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/about.png?raw=true)
 
+Dota2英雄列表及英雄背景和技能详细介绍，技能视频播放
 
 
 ![image](https://github.com/haifuyun/Dota2HerosPedia/blob/master/ShowGIF/01.gif?raw=true)

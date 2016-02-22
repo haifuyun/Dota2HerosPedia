@@ -1,0 +1,5596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>itemdata</key>
+	<dict>
+		<key>recipe</key>
+		<dict>
+			<key>dname</key>
+			<string>recipe</string>
+			<key>cost</key>
+			<integer>700</integer>
+			<key>img</key>
+			<string>recipe_lg.png</string>
+		</dict>
+		<key>blink</key>
+		<dict>
+			<key>id</key>
+			<integer>1</integer>
+			<key>img</key>
+			<string>blink_lg.png</string>
+			<key>dname</key>
+			<string>Blink Dagger</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>2250</integer>
+			<key>desc</key>
+			<string>Active: Blink - Teleport to a target point up to 1200 units away.  If damage is taken, Blink Dagger cannot be used for 3.0 seconds.</string>
+			<key>notes</key>
+			<string>Self-casting will cause you to teleport in the direction of your team&apos;s fountain.If you used Blink to teleport to a distance over the maximum range, you&apos;ll be teleported 4/5 of the maximum range instead.</string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>12</integer>
+			<key>lore</key>
+			<string>The fabled dagger used by the fastest assassin ever to walk the lands.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>blades_of_attack</key>
+		<dict>
+			<key>id</key>
+			<integer>2</integer>
+			<key>img</key>
+			<string>blades_of_attack_lg.png</string>
+			<key>dname</key>
+			<string>Blades of Attack</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>420</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+9  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The damage of these small, concealable blades should not be underestimated.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>broadsword</key>
+		<dict>
+			<key>id</key>
+			<integer>3</integer>
+			<key>img</key>
+			<string>broadsword_lg.png</string>
+			<key>dname</key>
+			<string>Broadsword</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1200</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+18  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>chainmail</key>
+		<dict>
+			<key>id</key>
+			<integer>4</integer>
+			<key>img</key>
+			<string>chainmail_lg.png</string>
+			<key>dname</key>
+			<string>Chainmail</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>550</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+5  TextArmor</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A medium weave of metal chains.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>claymore</key>
+		<dict>
+			<key>id</key>
+			<integer>5</integer>
+			<key>img</key>
+			<string>claymore_lg.png</string>
+			<key>dname</key>
+			<string>Claymore</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1400</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+21  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A sword that can cut through armor, it&apos;s a commonly chosen first weapon for budding swordsmen.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>helm_of_iron_will</key>
+		<dict>
+			<key>id</key>
+			<integer>6</integer>
+			<key>img</key>
+			<string>helm_of_iron_will_lg.png</string>
+			<key>dname</key>
+			<string>Helm of Iron Will</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>900</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+5  TextArmor
++3  TextHP Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The helmet of a legendary warrior who fell in battle.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>javelin</key>
+		<dict>
+			<key>id</key>
+			<integer>7</integer>
+			<key>img</key>
+			<string>javelin_lg.png</string>
+			<key>dname</key>
+			<string>Javelin</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1500</integer>
+			<key>desc</key>
+			<string>Passive: Pierce - Grants each attack a chance to deal bonus damage.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextDamage
+CHANCE TO PIERCE: 25%
+PIERCE DAMAGE: 85</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A rather typical spear that can sometimes pierce through an enemy&apos;s armor when used to attack.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mithril_hammer</key>
+		<dict>
+			<key>id</key>
+			<integer>8</integer>
+			<key>img</key>
+			<string>mithril_hammer_lg.png</string>
+			<key>dname</key>
+			<string>Mithril Hammer</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1600</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+24  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A hammer forged of pure mithril.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>platemail</key>
+		<dict>
+			<key>id</key>
+			<integer>9</integer>
+			<key>img</key>
+			<string>platemail_lg.png</string>
+			<key>dname</key>
+			<string>Platemail</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>1400</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextArmor</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Thick metal plates that protect the entire upper body. Avoid dropping on feet.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>quarterstaff</key>
+		<dict>
+			<key>id</key>
+			<integer>10</integer>
+			<key>img</key>
+			<string>quarterstaff_lg.png</string>
+			<key>dname</key>
+			<string>Quarterstaff</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>875</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextDamage
++10  TextAttack Speed</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A basic staff that allows you to strike quickly.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>quelling_blade</key>
+		<dict>
+			<key>id</key>
+			<integer>11</integer>
+			<key>img</key>
+			<string>quelling_blade_lg.png</string>
+			<key>dname</key>
+			<string>Quelling Blade</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>200</integer>
+			<key>desc</key>
+			<string>Active: Chop Tree/Ward - Destroy a target tree or ward. Chop cast range is increased when targetting wards.
+Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.</string>
+			<key>notes</key>
+			<string>Cannot carry more than one.Chop can be used to destroy Techies&apos; Land Mines and Remote Mines.</string>
+			<key>attrib</key>
+			<string>QUELL MELEE DAMAGE: 140%
+QUELL RANGED DAMAGE: 115%
+CHOP TREE CAST RANGE: 350
+CHOP WARD CAST RANGE: 450</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>4</integer>
+			<key>lore</key>
+			<string>The axe of a fallen gnome, it allows you to effectively maneuver the forest.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>faerie_fire</key>
+		<dict>
+			<key>id</key>
+			<integer>1023</integer>
+			<key>img</key>
+			<string>faerie_fire_lg.png</string>
+			<key>dname</key>
+			<string>Faerie Fire</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>desc</key>
+			<string>Use: Consume the Faerie Fire to instantly restore 75 HP</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+2  TextDamage
+HEALTH RESTORED: 75</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>5</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ring_of_protection</key>
+		<dict>
+			<key>id</key>
+			<integer>12</integer>
+			<key>img</key>
+			<string>ring_of_protection_lg.png</string>
+			<key>dname</key>
+			<string>Ring of Protection</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>175</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+2  TextArmor</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A glimmering ring that defends its bearer.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>stout_shield</key>
+		<dict>
+			<key>id</key>
+			<integer>182</integer>
+			<key>img</key>
+			<string>stout_shield_lg.png</string>
+			<key>dname</key>
+			<string>Stout Shield</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>200</integer>
+			<key>desc</key>
+			<string>Passive: Damage Block - Gives a chance to block damage based on whether the equipped hero is melee or ranged.</string>
+			<key>notes</key>
+			<string>Multiple sources of damage block don&apos;t stack.</string>
+			<key>attrib</key>
+			<string>MELEE DAMAGE BLOCK: 16
+RANGED DAMAGE BLOCK: 8
+BLOCK CHANCE: 50%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>One man&apos;s wine barrel bottom is another man&apos;s shield.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>moon_shard</key>
+		<dict>
+			<key>id</key>
+			<integer>247</integer>
+			<key>img</key>
+			<string>moon_shard_lg.png</string>
+			<key>dname</key>
+			<string>Moon Shard</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>4000</integer>
+			<key>desc</key>
+			<string>Use: Consume the Moon Shard to permanently gain 60 attack speed. Does not stack.
+Passive: Shade Sight - Grants 250 bonus night vision.</string>
+			<key>notes</key>
+			<string>The bonus night vision works during Night Stalker&apos;s Darkness ability.</string>
+			<key>attrib</key>
+			<string>+120  TextAttack Speed
+SHADE BONUS NIGHT VISION: 250
+CONSUME ATTACK SPEED: 60</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Said to be a tear from the lunar goddess Selemene.</string>
+			<key>components</key>
+			<array>
+				<string>hyperstone</string>
+				<string>hyperstone</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>gauntlets</key>
+		<dict>
+			<key>id</key>
+			<integer>13</integer>
+			<key>img</key>
+			<string>gauntlets_lg.png</string>
+			<key>dname</key>
+			<string>Gauntlets of Strength</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>150</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+3  TextStrength</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Studded leather gloves that add brute strength.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>slippers</key>
+		<dict>
+			<key>id</key>
+			<integer>14</integer>
+			<key>img</key>
+			<string>slippers_lg.png</string>
+			<key>dname</key>
+			<string>Slippers of Agility</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>150</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+3  TextAgility</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Light boots made from spider skin that tingles your senses.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mantle</key>
+		<dict>
+			<key>id</key>
+			<integer>15</integer>
+			<key>img</key>
+			<string>mantle_lg.png</string>
+			<key>dname</key>
+			<string>Mantle of Intelligence</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>150</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+3  TextIntelligence</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A beautiful sapphire mantle worn by generations of queens.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>branches</key>
+		<dict>
+			<key>id</key>
+			<integer>16</integer>
+			<key>img</key>
+			<string>branches_lg.png</string>
+			<key>dname</key>
+			<string>Iron Branch</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>desc</key>
+			<string>Active: Targets the ground to plant a happy little tree that lasts for 20 seconds.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+1  TextAll Attributes
+TREE DURATION: 20</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>0</integer>
+			<key>lore</key>
+			<string>A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>belt_of_strength</key>
+		<dict>
+			<key>id</key>
+			<integer>17</integer>
+			<key>img</key>
+			<string>belt_of_strength_lg.png</string>
+			<key>dname</key>
+			<string>Belt of Strength</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>450</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+6  TextStrength</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A valued accessory for improving vitality.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>boots_of_elves</key>
+		<dict>
+			<key>id</key>
+			<integer>18</integer>
+			<key>img</key>
+			<string>boots_of_elves_lg.png</string>
+			<key>dname</key>
+			<string>Band of Elvenskin</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>450</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+6  TextAgility</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A tensile fabric often used for its light weight and ease of movement.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>robe</key>
+		<dict>
+			<key>id</key>
+			<integer>19</integer>
+			<key>img</key>
+			<string>robe_lg.png</string>
+			<key>dname</key>
+			<string>Robe of the Magi</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>450</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+6  TextIntelligence</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>This robe corrupts the soul of the user, but provides wisdom in return.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>circlet</key>
+		<dict>
+			<key>id</key>
+			<integer>20</integer>
+			<key>img</key>
+			<string>circlet_lg.png</string>
+			<key>dname</key>
+			<string>Circlet</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>165</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+2  TextAll Attributes</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>An elegant circlet designed for human princesses.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ogre_axe</key>
+		<dict>
+			<key>id</key>
+			<integer>21</integer>
+			<key>img</key>
+			<string>ogre_axe_lg.png</string>
+			<key>dname</key>
+			<string>Ogre Club</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1000</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextStrength</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>You grow stronger just by holding it.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>blade_of_alacrity</key>
+		<dict>
+			<key>id</key>
+			<integer>22</integer>
+			<key>img</key>
+			<string>blade_of_alacrity_lg.png</string>
+			<key>dname</key>
+			<string>Blade of Alacrity</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1000</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextAgility</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A long blade imbued with time magic.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>staff_of_wizardry</key>
+		<dict>
+			<key>id</key>
+			<integer>23</integer>
+			<key>img</key>
+			<string>staff_of_wizardry_lg.png</string>
+			<key>dname</key>
+			<string>Staff of Wizardry</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1000</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextIntelligence</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A staff of magical powers passed down from the eldest mages.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ultimate_orb</key>
+		<dict>
+			<key>id</key>
+			<integer>24</integer>
+			<key>img</key>
+			<string>ultimate_orb_lg.png</string>
+			<key>dname</key>
+			<string>Ultimate Orb</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>2100</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextAll Attributes</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A mystical orb containing the essence of life.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>gloves</key>
+		<dict>
+			<key>id</key>
+			<integer>25</integer>
+			<key>img</key>
+			<string>gloves_lg.png</string>
+			<key>dname</key>
+			<string>Gloves of Haste</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>500</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+20  TextAttack Speed</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A pair of magical gloves that seems to render weapons weightless.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>lifesteal</key>
+		<dict>
+			<key>id</key>
+			<integer>26</integer>
+			<key>img</key>
+			<string>lifesteal_lg.png</string>
+			<key>dname</key>
+			<string>Morbid Mask</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>900</integer>
+			<key>desc</key>
+			<string>Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.
+
+Morbid Mask is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>LIFESTEAL: 15%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A mask that drains the energy of those caught in its gaze.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ring_of_regen</key>
+		<dict>
+			<key>id</key>
+			<integer>27</integer>
+			<key>img</key>
+			<string>ring_of_regen_lg.png</string>
+			<key>dname</key>
+			<string>Ring of Regen</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>350</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string>Ring of Regen is shareable.</string>
+			<key>attrib</key>
+			<string>+2  TextHP Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>This ring is considered a good luck charm among the Gnomes.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>sobi_mask</key>
+		<dict>
+			<key>id</key>
+			<integer>28</integer>
+			<key>img</key>
+			<string>sobi_mask_lg.png</string>
+			<key>dname</key>
+			<string>Sage&apos;s Mask</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>325</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string>Sage&apos;s Mask is shareable.</string>
+			<key>attrib</key>
+			<string>+50%  TextMana Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A mask commonly used by mages and warlocks for various rituals.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>boots</key>
+		<dict>
+			<key>id</key>
+			<integer>29</integer>
+			<key>img</key>
+			<string>boots_lg.png</string>
+			<key>dname</key>
+			<string>Boots of Speed</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>400</integer>
+			<key>desc</key>
+			<string>Flat movement speed bonuses from multiple pairs of boots do not stack.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+45  TextMovement Speed</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Fleet footwear, increasing movement.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>gem</key>
+		<dict>
+			<key>id</key>
+			<integer>30</integer>
+			<key>img</key>
+			<string>gem_lg.png</string>
+			<key>dname</key>
+			<string>Gem of True Sight</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>900</integer>
+			<key>desc</key>
+			<string>Passive: True Sight - Adds the ability to see invisible units and wards to any allied vision within its carrier&apos;s range.
+Dropped on death, and cannot be destroyed.</string>
+			<key>notes</key>
+			<string>Disabled while on a courier.</string>
+			<key>attrib</key>
+			<string>TRUE SIGHT RADIUS: 1100</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Not one thrall creature of the depths,
+Nor spirit bound in drowning&apos;s keep,
+Nor Maelrawn the Tentacular,
+Shall rest till seas, gem comes to sleep.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>cloak</key>
+		<dict>
+			<key>id</key>
+			<integer>31</integer>
+			<key>img</key>
+			<string>cloak_lg.png</string>
+			<key>dname</key>
+			<string>Cloak</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>550</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string>Stacks multiplicatively with other sources of spell resistance.</string>
+			<key>attrib</key>
+			<string>+15%  TextSpell Resistance</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A cloak made of a magical material that works to dispel any magic cast on it.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>talisman_of_evasion</key>
+		<dict>
+			<key>id</key>
+			<integer>32</integer>
+			<key>img</key>
+			<string>talisman_of_evasion_lg.png</string>
+			<key>dname</key>
+			<string>Talisman of Evasion</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>1800</integer>
+			<key>desc</key>
+			<string>Stacks diminishingly with other sources of Evasion.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+25%  TextEvasion</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A necklace that allows you to anticipate enemy attacks.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>cheese</key>
+		<dict>
+			<key>id</key>
+			<integer>33</integer>
+			<key>img</key>
+			<string>cheese_lg.png</string>
+			<key>dname</key>
+			<string>Cheese</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>1000</integer>
+			<key>desc</key>
+			<string>Use: Consume to instantly restore health and mana.</string>
+			<key>notes</key>
+			<string>Cheese is shareable.</string>
+			<key>attrib</key>
+			<string>HEALTH RESTORED: 2500
+MANA RESTORED: 1000</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>40</integer>
+			<key>lore</key>
+			<string>Made from the milk of a long lost Furbolg vendor, it restores the vitality of those who taste it.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>magic_stick</key>
+		<dict>
+			<key>id</key>
+			<integer>34</integer>
+			<key>img</key>
+			<string>magic_stick_lg.png</string>
+			<key>dname</key>
+			<string>Magic Stick</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>200</integer>
+			<key>desc</key>
+			<string>Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 10) whenever a nearby visible enemy uses an ability.</string>
+			<key>notes</key>
+			<string>Gains charges for spells cast by visible enemies in 1200 range.Certain abilities and item abilities will not add charges.</string>
+			<key>attrib</key>
+			<string>HEALTH/MANA PER CHARGE: 15</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>13</integer>
+			<key>lore</key>
+			<string>A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>magic_wand</key>
+		<dict>
+			<key>id</key>
+			<integer>36</integer>
+			<key>img</key>
+			<string>magic_wand_lg.png</string>
+			<key>dname</key>
+			<string>Magic Wand</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>465</integer>
+			<key>desc</key>
+			<string>Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability.</string>
+			<key>notes</key>
+			<string>Gains charges for spells cast by visible enemies in 1200 range.Certain abilities and item abilities will not add charges.</string>
+			<key>attrib</key>
+			<string>+4  TextAll Attributes
+HEALTH/MANA PER CHARGE: 15</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>13</integer>
+			<key>lore</key>
+			<string>A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.</string>
+			<key>components</key>
+			<array>
+				<string>circlet</string>
+				<string>branches</string>
+				<string>branches</string>
+				<string>magic_stick</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>ghost</key>
+		<dict>
+			<key>id</key>
+			<integer>37</integer>
+			<key>img</key>
+			<string>ghost_lg.png</string>
+			<key>dname</key>
+			<string>Ghost Scepter</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>1500</integer>
+			<key>desc</key>
+			<string>Active: Ghost Form - Enter ghost form, becoming immune to physical damage, yet unable to attack and taking 40% extra magic damage.
+Using a Town Portal Scroll or Boots of Travel  will not dispel Ghost Form.</string>
+			<key>notes</key>
+			<string>Ends if you become Spell Immune, and will have no effect if you are already Spell Immune.Shares cooldown with Ethereal Blade.</string>
+			<key>attrib</key>
+			<string>+5  TextAll Attributes
+GHOST DURATION: 4
+GHOST ADDED MAGIC DAMAGE: 40%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>30</integer>
+			<key>lore</key>
+			<string>Imbues the wielder with a ghostly presence, allowing them to evade physical damage.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>clarity</key>
+		<dict>
+			<key>id</key>
+			<integer>38</integer>
+			<key>img</key>
+			<string>clarity_lg.png</string>
+			<key>dname</key>
+			<string>Clarity</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>desc</key>
+			<string>Use: Restores mana to the target unit over time.  If the unit is attacked, the effect is lost.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>TOTAL MANA RESTORED: 190
+DURATION: 50</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Clear water that enhances the ability to meditate.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>enchanted_mango</key>
+		<dict>
+			<key>id</key>
+			<integer>216</integer>
+			<key>img</key>
+			<string>enchanted_mango_lg.png</string>
+			<key>dname</key>
+			<string>Enchanted Mango</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>125</integer>
+			<key>desc</key>
+			<string>Use: Consume the mango to instantly restore 150 mana.
+
+Hold Control to use Enchanted Mango on an allied hero.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+1  TextHP Regeneration
+MANA RESTORED: 150</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The bittersweet flavors of Jidi Isle are irresistible to amphibians.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>flask</key>
+		<dict>
+			<key>id</key>
+			<integer>39</integer>
+			<key>img</key>
+			<string>flask_lg.png</string>
+			<key>dname</key>
+			<string>Healing Salve</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>110</integer>
+			<key>desc</key>
+			<string>Use: Restores health to the target unit over time.  If the unit is attacked, the effect is lost.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>DURATION: 8
+HEALTH RESTORED: 400</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A magical salve that can quickly mend even the deepest of wounds.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>dust</key>
+		<dict>
+			<key>id</key>
+			<integer>40</integer>
+			<key>img</key>
+			<string>dust_lg.png</string>
+			<key>dname</key>
+			<string>Dust of Appearance</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>180</integer>
+			<key>desc</key>
+			<string>Use: Reveals and slows invisible Heroes in a nearby area.</string>
+			<key>notes</key>
+			<string>Places a buff on enemy units in the area that prevents them from becoming invisible.</string>
+			<key>attrib</key>
+			<string>DURATION: 12
+RADIUS: 1050
+SLOW: 20%</string>
+			<key>mc</key>
+			<integer>5</integer>
+			<key>cd</key>
+			<integer>30</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>bottle</key>
+		<dict>
+			<key>id</key>
+			<integer>41</integer>
+			<key>img</key>
+			<string>bottle_lg.png</string>
+			<key>dname</key>
+			<string>Bottle</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>660</integer>
+			<key>desc</key>
+			<string>Use: Regenerate - Consumes a charge to restore Health and Mana over time. Healing stops if attacked.  Bottle can be refilled at your team&apos;s fountain.  Runes can be stored in the Bottle for later use, and are activated automatically after 2 minutes.  If Bottle does not have full charges and is placed on a courier, the courier will move 30% slower.
+
+Hold Control to use Regenerate on an allied hero.  Stored runes cannot be shared.</string>
+			<key>notes</key>
+			<string>Bottle is shareable.</string>
+			<key>attrib</key>
+			<string>HEALTH RESTORED: 90
+MANA RESTORED: 60
+DURATION: 2.5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>0</integer>
+			<key>lore</key>
+			<string>An old bottle that survived the ages, the contents placed inside become enchanted.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ward_observer</key>
+		<dict>
+			<key>id</key>
+			<integer>42</integer>
+			<key>img</key>
+			<string>ward_observer_lg.png</string>
+			<key>dname</key>
+			<string>Observer Ward</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>desc</key>
+			<string>Use: Plants an Observer Ward, an invisible watcher that gives vision of its surrounding area to your team. Lasts 7 minutes.
+
+Hold Control to give one Observer Ward to an allied hero.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>VISION RANGE: 1600
+DURATION (MINUTES): 7</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>1</integer>
+			<key>lore</key>
+			<string>A form of half-sentient plant, often cultivated by apprentice wizards.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ward_sentry</key>
+		<dict>
+			<key>id</key>
+			<integer>43</integer>
+			<key>img</key>
+			<string>ward_sentry_lg.png</string>
+			<key>dname</key>
+			<string>Sentry Ward</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>200</integer>
+			<key>desc</key>
+			<string>Use: Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range. Lasts 4 minutes.
+
+Hold Control to give one Sentry Ward to an allied hero.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>TRUE SIGHT RANGE: 850
+DURATION (MINUTES): 4</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>1</integer>
+			<key>lore</key>
+			<string>A form of plant originally grown in the garden of a fearful king.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ward_dispenser</key>
+		<dict>
+			<key>id</key>
+			<integer>218</integer>
+			<key>img</key>
+			<string>ward_dispenser_lg.png</string>
+			<key>dname</key>
+			<string>Observer and Sentry Wards</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>275</integer>
+			<key>desc</key>
+			<string>Double-Click to switch the currently active ward.
+
+Use: Plant the currently active ward to keep watch over an area. Observer Wards reveal their surrounding area to your team. Sentry Wards grant True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>OBSERVER VISION RANGE: 1600
+OBSERVER DURATION (MINUTES): 7
+SENTRY TRUE SIGHT RANGE: 850
+SENTRY DURATION (MINUTES): 4</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Advancements in stacking efficiency have made wards easier to carry than ever.</string>
+			<key>components</key>
+			<array>
+				<string>ward_sentry</string>
+				<string>ward_observer</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>tango</key>
+		<dict>
+			<key>id</key>
+			<integer>44</integer>
+			<key>img</key>
+			<string>tango_lg.png</string>
+			<key>dname</key>
+			<string>Tango</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>125</integer>
+			<key>desc</key>
+			<string>Use: Eat a Tree or Ward - Consume a target tree or ward to gradually restore health.
+
+Comes with 4 charges.  Can be used on an allied hero to give them one Tango.</string>
+			<key>notes</key>
+			<string>Heals for double duration when used on a Ironwood Tree or Wards.</string>
+			<key>attrib</key>
+			<string>EAT TREE HEALTH RESTORED: 115
+EAT WARD HEALTH RESTORED: 230
+EAT WARD CAST RANGE: 450
+HEAL DURATION: 16</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Forage to survive on the battlefield.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>tango_single</key>
+		<dict>
+			<key>id</key>
+			<integer>241</integer>
+			<key>img</key>
+			<string>tango_single_lg.png</string>
+			<key>dname</key>
+			<string>Tango (Shared)</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>30</integer>
+			<key>desc</key>
+			<string>Use: Eat a Tree or Ward - Consume a target tree or ward to gradually restore health.</string>
+			<key>notes</key>
+			<string>Heals for double duration when used on a Ironwood Tree or Wards.</string>
+			<key>attrib</key>
+			<string>EAT TREE HEALTH RESTORED: 115
+EAT WARD HEALTH RESTORED: 230
+EAT WARD CAST RANGE: 450
+HEAL DURATION: 16</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>60</integer>
+			<key>lore</key>
+			<string>Om nom nom.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>courier</key>
+		<dict>
+			<key>id</key>
+			<integer>45</integer>
+			<key>img</key>
+			<string>courier_lg.png</string>
+			<key>dname</key>
+			<string>Animal Courier</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>100</integer>
+			<key>desc</key>
+			<string>Use: Deploy Courier - Deploys a creature to carry items to and from your team&apos;s base.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Losing the courier is punishable by death.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>tpscroll</key>
+		<dict>
+			<key>id</key>
+			<integer>46</integer>
+			<key>img</key>
+			<string>tpscroll_lg.png</string>
+			<key>dname</key>
+			<string>Town Portal Scroll</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>75</integer>
+			<key>desc</key>
+			<string>Use: Teleport - Teleports you to a target friendly building. Double-click to teleport to your team&apos;s base fountain.</string>
+			<key>notes</key>
+			<string>If multiple heroes teleport to the same location in succession, the channeling time will be increased for each successive hero.</string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<integer>75</integer>
+			<key>cd</key>
+			<integer>70</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>travel_boots_2</key>
+		<dict>
+			<key>id</key>
+			<integer>48</integer>
+			<key>img</key>
+			<string>travel_boots_lg.png</string>
+			<key>dname</key>
+			<string>Boots of Travel</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>2450</integer>
+			<key>desc</key>
+			<string>Active: Teleport - Teleports you to an allied non-hero unit or structure. Double-click to teleport to your team&apos;s base fountain. Upgradable to allow you to teleport to allied heroes.
+
+Flat movement speed bonuses from multiple pairs of boots do not stack.</string>
+			<key>notes</key>
+			<string>Shares cooldown with Town Portal Scrolls.</string>
+			<key>attrib</key>
+			<string>+100  TextMovement Speed</string>
+			<key>mc</key>
+			<integer>75</integer>
+			<key>cd</key>
+			<integer>45</integer>
+			<key>lore</key>
+			<string>Winged boots that grant omnipresence.</string>
+			<key>components</key>
+			<array>
+				<string>boots</string>
+				<string>recipe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>phase_boots</key>
+		<dict>
+			<key>id</key>
+			<integer>50</integer>
+			<key>img</key>
+			<string>phase_boots_lg.png</string>
+			<key>dname</key>
+			<string>Phase Boots</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>1290</integer>
+			<key>desc</key>
+			<string>Active: Phase - Gives increased movement speed and lets you move through units.  The increased movement speed is based on whether the equipped hero is melee or ranged.
+
+Flat movement speed bonuses from multiple pairs of boots do not stack.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+45  TextMovement Speed
++24  TextDamage
+PHASE MOVE BOOST MELEE: 24%
+PHASE MOVE BOOST RANGED: 20%
+PHASE DURATION: 2.5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>8</integer>
+			<key>lore</key>
+			<string>Boots that allow the wearer to travel between the ether.</string>
+			<key>components</key>
+			<array>
+				<string>boots</string>
+				<string>blades_of_attack</string>
+				<string>blades_of_attack</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>demon_edge</key>
+		<dict>
+			<key>id</key>
+			<integer>51</integer>
+			<key>img</key>
+			<string>demon_edge_lg.png</string>
+			<key>dname</key>
+			<string>Demon Edge</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>2400</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+46  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>eagle</key>
+		<dict>
+			<key>id</key>
+			<integer>52</integer>
+			<key>img</key>
+			<string>eagle_lg.png</string>
+			<key>dname</key>
+			<string>Eaglesong</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>3200</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+25  TextAgility</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>reaver</key>
+		<dict>
+			<key>id</key>
+			<integer>53</integer>
+			<key>img</key>
+			<string>reaver_lg.png</string>
+			<key>dname</key>
+			<string>Reaver</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>3000</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+25  TextStrength</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A massive axe capable of tearing whole mountains down.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>relic</key>
+		<dict>
+			<key>id</key>
+			<integer>54</integer>
+			<key>img</key>
+			<string>relic_lg.png</string>
+			<key>dname</key>
+			<string>Sacred Relic</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>3800</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+60  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>An ancient weapon that often turns the tides of war.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>hyperstone</key>
+		<dict>
+			<key>id</key>
+			<integer>55</integer>
+			<key>img</key>
+			<string>hyperstone_lg.png</string>
+			<key>dname</key>
+			<string>Hyperstone</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>2000</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+55  TextAttack Speed</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A mystical, carved stone that boosts the fervor of the holder.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ring_of_health</key>
+		<dict>
+			<key>id</key>
+			<integer>56</integer>
+			<key>img</key>
+			<string>ring_of_health_lg.png</string>
+			<key>dname</key>
+			<string>Ring of Health</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>850</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string>Ring of Health is shareable.</string>
+			<key>attrib</key>
+			<string>+5  TextHP Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A shiny ring found beneath a fat halfling&apos;s corpse.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>void_stone</key>
+		<dict>
+			<key>id</key>
+			<integer>57</integer>
+			<key>img</key>
+			<string>void_stone_lg.png</string>
+			<key>dname</key>
+			<string>Void Stone</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>850</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string>Void Stone is shareable.</string>
+			<key>attrib</key>
+			<string>+100%  TextMana Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Jewelry that was once used to channel nether realm magic, this ring pulses with energy.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mystic_staff</key>
+		<dict>
+			<key>id</key>
+			<integer>58</integer>
+			<key>img</key>
+			<string>mystic_staff_lg.png</string>
+			<key>dname</key>
+			<string>Mystic Staff</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>2700</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+25  TextIntelligence</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Enigmatic staff made of only the most expensive crystals.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>energy_booster</key>
+		<dict>
+			<key>id</key>
+			<integer>59</integer>
+			<key>img</key>
+			<string>energy_booster_lg.png</string>
+			<key>dname</key>
+			<string>Energy Booster</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>900</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+250  TextMana</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>point_booster</key>
+		<dict>
+			<key>id</key>
+			<integer>60</integer>
+			<key>img</key>
+			<string>point_booster_lg.png</string>
+			<key>dname</key>
+			<string>Point Booster</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>1200</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+150  TextMana
++200  TextHealth</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A perfectly formed amethyst that nourishes body and mind when held.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>vitality_booster</key>
+		<dict>
+			<key>id</key>
+			<integer>61</integer>
+			<key>img</key>
+			<string>vitality_booster_lg.png</string>
+			<key>dname</key>
+			<string>Vitality Booster</string>
+			<key>qual</key>
+			<string>secret_shop</string>
+			<key>cost</key>
+			<integer>1100</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+250  TextHealth</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A ruby gemstone that has been passed down through generations of warrior kin.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>power_treads</key>
+		<dict>
+			<key>id</key>
+			<integer>63</integer>
+			<key>img</key>
+			<string>power_treads_lg.png</string>
+			<key>dname</key>
+			<string>Power Treads</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>1400</integer>
+			<key>desc</key>
+			<string>Active: Switch Attribute - Changes selected attribute between Strength, Agility and Intelligence.
+
+Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.  Flat movement speed bonuses from multiple pairs of boots do not stack, nor does the attack speed bonus from multiple Power Treads.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+45  TextMovement Speed
++9  TextSelected Attribute
++25  TextAttack Speed</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A pair of tough-skinned boots that change to meet the demands of the wearer.</string>
+			<key>components</key>
+			<array>
+				<string>boots</string>
+				<string>gloves</string>
+				<string>belt_of_strength</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>hand_of_midas</key>
+		<dict>
+			<key>id</key>
+			<integer>65</integer>
+			<key>img</key>
+			<string>hand_of_midas_lg.png</string>
+			<key>dname</key>
+			<string>Hand of Midas</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>2050</integer>
+			<key>desc</key>
+			<string>Active: Transmute - Kills a non-hero target for 190 gold and 2.5x experience.  Cannot be used on Ancient Creeps.</string>
+			<key>notes</key>
+			<string>The gold given is reliable gold (you do not get the normal creep bounty).Experience gained by using Transmute is not shared.</string>
+			<key>attrib</key>
+			<string>+30  TextAttack Speed
+TRANSMUTE CAST RANGE: 600</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>100</integer>
+			<key>lore</key>
+			<string>Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner&apos;s pockets.</string>
+			<key>components</key>
+			<array>
+				<string>gloves</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>oblivion_staff</key>
+		<dict>
+			<key>id</key>
+			<integer>67</integer>
+			<key>img</key>
+			<string>oblivion_staff_lg.png</string>
+			<key>dname</key>
+			<string>Oblivion Staff</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>1650</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+6  TextIntelligence
++10  TextAttack Speed
++15  TextDamage
++75%  TextMana Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it.</string>
+			<key>components</key>
+			<array>
+				<string>quarterstaff</string>
+				<string>sobi_mask</string>
+				<string>robe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>pers</key>
+		<dict>
+			<key>id</key>
+			<integer>69</integer>
+			<key>img</key>
+			<string>pers_lg.png</string>
+			<key>dname</key>
+			<string>Perseverance</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>1700</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string>Perseverance is shareable.</string>
+			<key>attrib</key>
+			<string>+5  TextHP Regeneration
++125%  TextMana Regeneration
++10  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A gem that grants heart to the bearer.</string>
+			<key>components</key>
+			<array>
+				<string>ring_of_health</string>
+				<string>void_stone</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>poor_mans_shield</key>
+		<dict>
+			<key>id</key>
+			<integer>71</integer>
+			<key>img</key>
+			<string>poor_mans_shield_lg.png</string>
+			<key>dname</key>
+			<string>Poor Man&apos;s Shield</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>500</integer>
+			<key>desc</key>
+			<string>Passive: Damage Block - Blocks physical attack damage based on whether the equipped hero is ranged or melee.  Poor Man&apos;s Shield will always block attacks from enemy Heroes, but has a 53% chance to block damage from creeps.</string>
+			<key>notes</key>
+			<string>Multiple sources of damage block don&apos;t stack.</string>
+			<key>attrib</key>
+			<string>+6  TextAgility
+MELEE DAMAGE BLOCK: 20
+RANGED DAMAGE BLOCK: 10
+CREEP BLOCK CHANCE: 53%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A busted old shield that seems to block more than it should.</string>
+			<key>components</key>
+			<array>
+				<string>slippers</string>
+				<string>slippers</string>
+				<string>stout_shield</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>bracer</key>
+		<dict>
+			<key>id</key>
+			<integer>73</integer>
+			<key>img</key>
+			<string>bracer_lg.png</string>
+			<key>dname</key>
+			<string>Bracer</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>525</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+6  TextStrength
++3  TextAgility
++3  TextIntelligence
++3  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The bracer is a common choice to toughen up defenses and increase longevity.</string>
+			<key>components</key>
+			<array>
+				<string>circlet</string>
+				<string>gauntlets</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>wraith_band</key>
+		<dict>
+			<key>id</key>
+			<integer>75</integer>
+			<key>img</key>
+			<string>wraith_band_lg.png</string>
+			<key>dname</key>
+			<string>Wraith Band</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>485</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+3  TextStrength
++6  TextAgility
++3  TextIntelligence
++3  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A circlet with faint whispers echoing about it.</string>
+			<key>components</key>
+			<array>
+				<string>circlet</string>
+				<string>slippers</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>null_talisman</key>
+		<dict>
+			<key>id</key>
+			<integer>77</integer>
+			<key>img</key>
+			<string>null_talisman_lg.png</string>
+			<key>dname</key>
+			<string>Null Talisman</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>470</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+3  TextStrength
++3  TextAgility
++6  TextIntelligence
++3  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A small gemstone attached to several chains.</string>
+			<key>components</key>
+			<array>
+				<string>circlet</string>
+				<string>mantle</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>mekansm</key>
+		<dict>
+			<key>id</key>
+			<integer>79</integer>
+			<key>img</key>
+			<string>mekansm_lg.png</string>
+			<key>dname</key>
+			<string>Mekansm</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2300</integer>
+			<key>desc</key>
+			<string>Active: Restore - Heals 250 health and gives +2 armor to allied units in a 900 radius.
+Passive: Mekansm Aura - Grants 4 health regeneration to allied units in a 900 radius.
+
+Multiple instances of Mekansm Aura do not stack.</string>
+			<key>notes</key>
+			<string>Restore does not affect units that have been affected by Restore in the last 25 seconds.</string>
+			<key>attrib</key>
+			<string>+5  TextAll Attributes
++5  TextArmor
+AURA HEALTH REGEN: 4
+RESTORE HEAL: 250
+RESTORE ARMOR: 2
+RESTORE ARMOR DURATION: 25
+AURA/RESTORE RADIUS: 900</string>
+			<key>mc</key>
+			<integer>225</integer>
+			<key>cd</key>
+			<integer>65</integer>
+			<key>lore</key>
+			<string>A glowing jewel formed out of assorted parts that somehow fit together perfectly.</string>
+			<key>components</key>
+			<array>
+				<string>headdress</string>
+				<string>buckler</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>vladmir</key>
+		<dict>
+			<key>id</key>
+			<integer>81</integer>
+			<key>img</key>
+			<string>vladmir_lg.png</string>
+			<key>dname</key>
+			<string>Vladmir&apos;s Offering</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2325</integer>
+			<key>desc</key>
+			<string>Passive: Vladmir&apos;s Aura - Grants lifesteal, health regeneration, mana regeneration, bonus attack damage, and armor to allies in a 900 radius.  The lifesteal percentage is based on whether the hero affected by the aura is melee or ranged.
+
+Multiple instances of Vladmir&apos;s Aura do not stack.</string>
+			<key>notes</key>
+			<string>Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir&apos;s Offering.</string>
+			<key>attrib</key>
+			<string>+2  TextAll Attributes
+AURA HEALTH REGEN: 3
+AURA MANA REGEN: 0.8
+AURA BONUS ARMOR: 5
+AURA BONUS ATTACK DAMAGE: 15%
+AURA MELEE LIFESTEAL: 15%
+AURA RANGED LIFESTEAL: 10%
+AURA RADIUS: 900</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>An eerie mask that is haunted with the malice of a fallen vampire.</string>
+			<key>components</key>
+			<array>
+				<string>headdress</string>
+				<string>ring_of_basilius</string>
+				<string>lifesteal</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>flying_courier</key>
+		<dict>
+			<key>id</key>
+			<integer>84</integer>
+			<key>img</key>
+			<string>flying_courier_lg.png</string>
+			<key>dname</key>
+			<string>Flying Courier</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>200</integer>
+			<key>desc</key>
+			<string>Upgrades your team&apos;s Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team&apos;s base.
+
+Requires a deployed Animal Courier.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>buckler</key>
+		<dict>
+			<key>id</key>
+			<integer>86</integer>
+			<key>img</key>
+			<string>buckler_lg.png</string>
+			<key>dname</key>
+			<string>Buckler</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>800</integer>
+			<key>desc</key>
+			<string>Active: Armor Bonus - Gives +2 armor to all allied units in a 900 radius.  Lasts 25 seconds on heroes, 30 seconds on units.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+5  TextArmor
++2  TextAll Attributes
+ARMOR CAST RADIUS: 900</string>
+			<key>mc</key>
+			<integer>10</integer>
+			<key>cd</key>
+			<integer>25</integer>
+			<key>lore</key>
+			<string>A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle.</string>
+			<key>components</key>
+			<array>
+				<string>chainmail</string>
+				<string>branches</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>ring_of_basilius</key>
+		<dict>
+			<key>id</key>
+			<integer>88</integer>
+			<key>img</key>
+			<string>ring_of_basilius_lg.png</string>
+			<key>dname</key>
+			<string>Ring of Basilius</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>525</integer>
+			<key>desc</key>
+			<string>Passive: Basilius Aura - Grants mana regeneration and armor in a 900 area of effect.
+Active: Toggle whether the aura affects other non-hero units.
+
+Multiple instances of Basilius Aura do not stack.</string>
+			<key>notes</key>
+			<string>Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir&apos;s Offering.</string>
+			<key>attrib</key>
+			<string>+6  TextDamage
++1  TextArmor
+AURA MANA REGEN: 0.65
+AURA BONUS ARMOR: 2</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Ring given as a reward to the greatest mages.</string>
+			<key>components</key>
+			<array>
+				<string>sobi_mask</string>
+				<string>ring_of_protection</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>pipe</key>
+		<dict>
+			<key>id</key>
+			<integer>90</integer>
+			<key>img</key>
+			<string>pipe_lg.png</string>
+			<key>dname</key>
+			<string>Pipe of Insight</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>3500</integer>
+			<key>desc</key>
+			<string>Active: Barrier - Gives a shield that blocks 400 spell damage to all allies in a 900 radius.
+Passive: Insight Aura - Gives allied units 4 health regeneration and 10% magic resistance in a 900 radius.</string>
+			<key>notes</key>
+			<string>Barrier does not affect units that have been affected by Barrier in the last 50 seconds.Stacks multiplicatively with other sources of spell resistance.</string>
+			<key>attrib</key>
+			<string>+9  TextHP Regeneration
++30%  TextSpell Resistance
+AURA HEALTH REGEN: 4
+AURA MAGIC RESISTANCE: 10%
+AURA RADIUS: 900
+BARRIER SPELL BLOCK: 400
+BARRIER DURATION: 12.000000
+BARRIER CAST RADIUS: 900</string>
+			<key>mc</key>
+			<integer>100</integer>
+			<key>cd</key>
+			<integer>60</integer>
+			<key>lore</key>
+			<string>A powerful artifact of mysterious origin, it creates barriers against magical forces.</string>
+			<key>components</key>
+			<array>
+				<string>hood_of_defiance</string>
+				<string>headdress</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>urn_of_shadows</key>
+		<dict>
+			<key>id</key>
+			<integer>92</integer>
+			<key>img</key>
+			<string>urn_of_shadows_lg.png</string>
+			<key>dname</key>
+			<string>Urn of Shadows</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>875</integer>
+			<key>desc</key>
+			<string>Active: Soul Release - Heals health over time to friendly units, but deals pure damage over time to enemy units.  The healing effect is lost if the affected ally takes damage from an enemy hero or tower.
+Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.</string>
+			<key>notes</key>
+			<string>Empty urns gain 2 charges.If used on a hero with Soul Release already active on them, it will refresh its duration.</string>
+			<key>attrib</key>
+			<string>+50%  TextMana Regeneration
++6  TextStrength
+RELEASE ALLY TOTAL HEAL: 400
+RELEASE ENEMY TOTAL DAMAGE: 150
+SOUL RELEASE DURATION: 8
+SOUL RELEASE CAST RANGE: 950</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>7</integer>
+			<key>lore</key>
+			<string>Contains the ashes of powerful demons.</string>
+			<key>components</key>
+			<array>
+				<string>sobi_mask</string>
+				<string>gauntlets</string>
+				<string>gauntlets</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>headdress</key>
+		<dict>
+			<key>id</key>
+			<integer>94</integer>
+			<key>img</key>
+			<string>headdress_lg.png</string>
+			<key>dname</key>
+			<string>Headdress</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>600</integer>
+			<key>desc</key>
+			<string>Passive: Regeneration Aura - Restores health to allies in a 900 unit radius.
+
+Multiple instances of Regeneration Aura do not stack.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+2  TextAll Attributes
+AURA HEALTH REGEN: 3
+AURA REGEN RADIUS: 900</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Creates a soothing aura that restores allies in battle.</string>
+			<key>components</key>
+			<array>
+				<string>ring_of_regen</string>
+				<string>branches</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>sheepstick</key>
+		<dict>
+			<key>id</key>
+			<integer>96</integer>
+			<key>img</key>
+			<string>sheepstick_lg.png</string>
+			<key>dname</key>
+			<string>Scythe of Vyse</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>5650</integer>
+			<key>desc</key>
+			<string>Active: Hex - Turns a target unit into a harmless critter for 3.5 seconds. Instantly destroys illusions.</string>
+			<key>notes</key>
+			<string>The target will have a base movement speed of 140, but buffs granting maximum movement speed won&apos;t be disabled.</string>
+			<key>attrib</key>
+			<string>+10  TextStrength
++10  TextAgility
++35  TextIntelligence
++150%  TextMana Regeneration
+HEX DURATION: 3.5</string>
+			<key>mc</key>
+			<integer>100</integer>
+			<key>cd</key>
+			<integer>25</integer>
+			<key>lore</key>
+			<string>The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.</string>
+			<key>components</key>
+			<array>
+				<string>mystic_staff</string>
+				<string>ultimate_orb</string>
+				<string>void_stone</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>orchid</key>
+		<dict>
+			<key>id</key>
+			<integer>98</integer>
+			<key>img</key>
+			<string>orchid_lg.png</string>
+			<key>dname</key>
+			<string>Orchid Malevolence</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>4075</integer>
+			<key>desc</key>
+			<string>Active: Soul Burn - Silences the target unit for 5.0 seconds and amplifies the damage it takes by 30.0%.</string>
+			<key>notes</key>
+			<string>Amplified damage is dealt at the end of the duration as magical damage.</string>
+			<key>attrib</key>
+			<string>+25  TextIntelligence
++30  TextAttack Speed
++30  TextDamage
++150%  TextMana Regeneration
+SOUL BURN INCREASED DAMAGE: 30%
+SOUL BURN DURATION: 5</string>
+			<key>mc</key>
+			<integer>100</integer>
+			<key>cd</key>
+			<integer>18</integer>
+			<key>lore</key>
+			<string>A garnet rod constructed from the essence of a fire demon.</string>
+			<key>components</key>
+			<array>
+				<string>oblivion_staff</string>
+				<string>oblivion_staff</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>cyclone</key>
+		<dict>
+			<key>id</key>
+			<integer>100</integer>
+			<key>img</key>
+			<string>cyclone_lg.png</string>
+			<key>dname</key>
+			<string>Eul&apos;s Scepter of Divinity</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2825</integer>
+			<key>desc</key>
+			<string>Active: Cyclone - Sweeps a target unit up into cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself. Enemy units take 50 magical damage upon landing.</string>
+			<key>notes</key>
+			<string>You cannot cyclone allies.Cyclones cast on yourself go through spell immunity.Cyclone can purge some buffs and debuffs.</string>
+			<key>attrib</key>
+			<string>+10  TextIntelligence
++150%  TextMana Regeneration
++40  TextMovement Speed
+CYCLONE DURATION: 2.5
+CYCLONE CAST RANGE: 575</string>
+			<key>mc</key>
+			<integer>175</integer>
+			<key>cd</key>
+			<integer>23</integer>
+			<key>lore</key>
+			<string>A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.</string>
+			<key>components</key>
+			<array>
+				<string>sobi_mask</string>
+				<string>staff_of_wizardry</string>
+				<string>void_stone</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>aether_lens</key>
+		<dict>
+			<key>id</key>
+			<integer>1028</integer>
+			<key>img</key>
+			<string>aether_lens_lg.png</string>
+			<key>dname</key>
+			<string>Aether Lens</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2350</integer>
+			<key>desc</key>
+			<string>Passive: Increases spell cast range by 200 and spell damage output by 8%</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+250  TextMana
++8  TextHP Regeneration
++15%  TextSpell Resistance
++200  TextCast Range
+SPELL DAMAGE AMP: 8%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array>
+				<string>energy_booster</string>
+				<string>ring_of_health</string>
+				<string>cloak</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>force_staff</key>
+		<dict>
+			<key>id</key>
+			<integer>102</integer>
+			<key>img</key>
+			<string>force_staff_lg.png</string>
+			<key>dname</key>
+			<string>Force Staff</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2250</integer>
+			<key>desc</key>
+			<string>Active: Force - Pushes any target unit 600 units in the direction it is facing.  Double click to instantly cast Force on yourself.</string>
+			<key>notes</key>
+			<string>Self-cast will cause you to use Force on yourself.Force Staff doesn&apos;t interrupt the target&apos;s actions.Will not work on a unit inside Chronosphere, Duel, or Black Hole.</string>
+			<key>attrib</key>
+			<string>+10  TextIntelligence
++4  TextHP Regeneration</string>
+			<key>mc</key>
+			<integer>25</integer>
+			<key>cd</key>
+			<integer>20</integer>
+			<key>lore</key>
+			<string>Allows you to manipulate others, for good or evil.</string>
+			<key>components</key>
+			<array>
+				<string>staff_of_wizardry</string>
+				<string>ring_of_regen</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>dagon_5</key>
+		<dict>
+			<key>id</key>
+			<integer>104</integer>
+			<key>img</key>
+			<string>dagon_lg.png</string>
+			<key>dname</key>
+			<string>Dagon</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2720</integer>
+			<key>desc</key>
+			<string>Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+13/16/19/22/25  TextIntelligence
++ 3  TextAll Attributes
++ 9  TextDamage
+BURST DAMAGE: 400/500/600/700/800
+CAST RANGE: 600/650/700/750/800</string>
+			<key>mc</key>
+			<integer>180</integer>
+			<key>cd</key>
+			<integer>35</integer>
+			<key>lore</key>
+			<string>A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.</string>
+			<key>components</key>
+			<array>
+				<string>staff_of_wizardry</string>
+				<string>null_talisman</string>
+				<string>recipe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>necronomicon_3</key>
+		<dict>
+			<key>id</key>
+			<integer>106</integer>
+			<key>img</key>
+			<string>necronomicon_lg.png</string>
+			<key>dname</key>
+			<string>Necronomicon</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2700</integer>
+			<key>desc</key>
+			<string>Active: Demonic Summoning - Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+15/21/24  TextIntelligence
++8/12/16  TextStrength
+WARRIOR HEALTH: 700/800/900
+WARRIOR DAMAGE: 45/60/75
+WARRIOR MANA BREAK: 25/50/75
+WARRIOR LAST WILL DMG: 550/675/800
+ARCHER HEALTH: 700/800/900
+ARCHER DAMAGE: 60/90/120
+ARCHER MANA BURN: 125/175/225
+ARCHER AURA SPEED: 5%/7%/9%</string>
+			<key>mc</key>
+			<integer>50</integer>
+			<key>cd</key>
+			<integer>95</integer>
+			<key>lore</key>
+			<string>Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.</string>
+			<key>components</key>
+			<array>
+				<string>staff_of_wizardry</string>
+				<string>belt_of_strength</string>
+				<string>recipe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>ultimate_scepter</key>
+		<dict>
+			<key>id</key>
+			<integer>108</integer>
+			<key>img</key>
+			<string>ultimate_scepter_lg.png</string>
+			<key>dname</key>
+			<string>Aghanim&apos;s Scepter</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>4200</integer>
+			<key>desc</key>
+			<string>Passive: Ultimate Upgrade - Upgrades the ultimate, and some abilities, of certain heroes.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextAll Attributes
++200  TextHealth
++150  TextMana</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The scepter of a wizard with demigod-like powers.</string>
+			<key>components</key>
+			<array>
+				<string>point_booster</string>
+				<string>staff_of_wizardry</string>
+				<string>ogre_axe</string>
+				<string>blade_of_alacrity</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>refresher</key>
+		<dict>
+			<key>id</key>
+			<integer>110</integer>
+			<key>img</key>
+			<string>refresher_lg.png</string>
+			<key>dname</key>
+			<string>Refresher Orb</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>5200</integer>
+			<key>desc</key>
+			<string>Active: Reset Cooldowns - Resets the cooldowns of all your items and abilities.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextHP Regeneration
++250%  TextMana Regeneration
++20  TextDamage</string>
+			<key>mc</key>
+			<integer>375</integer>
+			<key>cd</key>
+			<integer>195</integer>
+			<key>lore</key>
+			<string>A powerful artifact created for wizards.</string>
+			<key>components</key>
+			<array>
+				<string>pers</string>
+				<string>pers</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>assault</key>
+		<dict>
+			<key>id</key>
+			<integer>112</integer>
+			<key>img</key>
+			<string>assault_lg.png</string>
+			<key>dname</key>
+			<string>Assault Cuirass</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5250</integer>
+			<key>desc</key>
+			<string>Passive: Assault Aura - Grants attack speed and armor to nearby allied units and structures, and decreases the armor of nearby enemies.
+
+Multiple instances of Assault Aura do not stack.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+35  TextAttack Speed
++10  TextArmor
+AURA ATTACK SPEED: 20
+AURA ALLY BONUS ARMOR: 5
+AURA ENEMY ARMOR REDUCTION: 5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>platemail</string>
+				<string>hyperstone</string>
+				<string>chainmail</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>heart</key>
+		<dict>
+			<key>id</key>
+			<integer>114</integer>
+			<key>img</key>
+			<string>heart_lg.png</string>
+			<key>dname</key>
+			<string>Heart of Tarrasque</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5500</integer>
+			<key>desc</key>
+			<string>Passive: Health Regeneration - Restores a percentage of max health per second. If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+40  TextStrength
++300  TextHealth
+HEALTH RESTORED PER SECOND: 4.75%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>7</integer>
+			<key>lore</key>
+			<string>Preserved heart of an extinct monster, it bolsters the bearer&apos;s fortitude.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>reaver</string>
+				<string>vitality_booster</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>black_king_bar</key>
+		<dict>
+			<key>id</key>
+			<integer>116</integer>
+			<key>img</key>
+			<string>black_king_bar_lg.png</string>
+			<key>dname</key>
+			<string>Black King Bar</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>3975</integer>
+			<key>desc</key>
+			<string>Active: Avatar - Grants Spell Immunity and 100% Magic Damage Resistance.  Duration and cooldown decrease with each use.  Some abilities are able to disable through Avatar.</string>
+			<key>notes</key>
+			<string>Purchasing another Black King Bar will not reset its immunity duration.Using Black King Bar may remove some positive buffs.</string>
+			<key>attrib</key>
+			<string>+10  TextStrength
++24  TextDamage
+AVATAR DURATION: 10/9/8/7/6/5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>80</integer>
+			<key>lore</key>
+			<string>A powerful staff imbued with the strength of giants.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>ogre_axe</string>
+				<string>mithril_hammer</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>aegis</key>
+		<dict>
+			<key>id</key>
+			<integer>117</integer>
+			<key>img</key>
+			<string>aegis_lg.png</string>
+			<key>dname</key>
+			<string>Aegis of the Immortal</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Passive: Reincarnation - Brings you to life with full health and mana 5.0 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage).</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The Immortal was said to own a shield that protected him from death itself.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>shivas_guard</key>
+		<dict>
+			<key>id</key>
+			<integer>119</integer>
+			<key>img</key>
+			<string>shivas_guard_lg.png</string>
+			<key>dname</key>
+			<string>Shiva&apos;s Guard</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>4700</integer>
+			<key>desc</key>
+			<string>Active: Arctic Blast - Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4.0 seconds.
+Passive: Freezing Aura - Reduces the attack speed of all enemies in a 900 radius.
+
+Multiple instances of Freezing Aura do not stack.</string>
+			<key>notes</key>
+			<string>The wave extends at a speed of 350 to a max size of 900.The Arctic Blast follows its caster.</string>
+			<key>attrib</key>
+			<string>+30  TextIntelligence
++15  TextArmor
+AURA ATTACK SLOW: 45
+BLAST DAMAGE: 200
+BLAST MOVEMENT SLOW: 40%
+BLAST SLOW DURATION: 4
+BLAST RADIUS: 900</string>
+			<key>mc</key>
+			<integer>100</integer>
+			<key>cd</key>
+			<integer>30</integer>
+			<key>lore</key>
+			<string>Said to have belonged to a goddess, today it retains much of its former power.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>platemail</string>
+				<string>mystic_staff</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>bloodstone</key>
+		<dict>
+			<key>id</key>
+			<integer>121</integer>
+			<key>img</key>
+			<string>bloodstone_lg.png</string>
+			<key>dname</key>
+			<string>Bloodstone</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>4900</integer>
+			<key>desc</key>
+			<string>Active: Pocket Deny - Instantly causes you to die.
+Passive: Bloodpact - Begins with 8 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second, and reduces respawn time by 3 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges.</string>
+			<key>notes</key>
+			<string>Only the first Bloodstone will gain charges.</string>
+			<key>attrib</key>
+			<string>+500  TextHealth
++400  TextMana
++9  TextHP Regeneration
++200%  TextMana Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>300</integer>
+			<key>lore</key>
+			<string>The Bloodstone&apos;s bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>soul_ring</string>
+				<string>soul_booster</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>sphere</key>
+		<dict>
+			<key>id</key>
+			<integer>123</integer>
+			<key>img</key>
+			<string>sphere_lg.png</string>
+			<key>dname</key>
+			<string>Linken&apos;s Sphere</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5125</integer>
+			<key>desc</key>
+			<string>Passive: Spellblock - Blocks most targeted spells once every 16.0 seconds.
+Active: Transfer Spellblock - Temporarily removes Spellblock from the item&apos;s owner and transfers it to an allied unit.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+15  TextAll Attributes
++6  TextHP Regeneration
++150%  TextMana Regeneration
++15  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>13</integer>
+			<key>lore</key>
+			<string>This magical sphere once protected one of the most famous heroes in history.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>ultimate_orb</string>
+				<string>pers</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>lotus_orb</key>
+		<dict>
+			<key>id</key>
+			<integer>226</integer>
+			<key>img</key>
+			<string>lotus_orb_lg.png</string>
+			<key>dname</key>
+			<string>Lotus Orb</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>4000</integer>
+			<key>desc</key>
+			<string>Active: Echo Shell - Applies a shield to the target unit which re-casts most targeted spells back to their caster. The shielded unit will still take damage from the spell. Dispels negative buffs when applied.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextDamage
++10  TextArmor
++5  TextHP Regeneration
++125%  TextMana Regeneration
+ECHO DURATION: 6
+ECHO CAST RANGE: 900</string>
+			<key>mc</key>
+			<integer>75</integer>
+			<key>cd</key>
+			<integer>15</integer>
+			<key>lore</key>
+			<string>The jewel at its center still reflects a pale image of its creator.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>pers</string>
+				<string>platemail</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>vanguard</key>
+		<dict>
+			<key>id</key>
+			<integer>125</integer>
+			<key>img</key>
+			<string>vanguard_lg.png</string>
+			<key>dname</key>
+			<string>Vanguard</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>2150</integer>
+			<key>desc</key>
+			<string>Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.</string>
+			<key>notes</key>
+			<string>Multiple sources of damage block don&apos;t stack.</string>
+			<key>attrib</key>
+			<string>+250  TextHealth
++6  TextHP Regeneration
+BLOCK DAMAGE MELEE: 32
+BLOCK DAMAGE RANGED: 16</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A powerful shield that defends its wielder from even the most vicious of attacks.</string>
+			<key>components</key>
+			<array>
+				<string>ring_of_health</string>
+				<string>vitality_booster</string>
+				<string>stout_shield</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>crimson_guard</key>
+		<dict>
+			<key>id</key>
+			<integer>242</integer>
+			<key>img</key>
+			<string>crimson_guard_lg.png</string>
+			<key>dname</key>
+			<string>Crimson Guard</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>3550</integer>
+			<key>desc</key>
+			<string>Active: Guard - Grant nearby allied heroes a 100% chance to block 55 damage from each incoming attack, along with 2 armor. Lasts 10 seconds.
+Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.</string>
+			<key>notes</key>
+			<string>Multiple sources of damage block don&apos;t stack.Guard does not affect units that have been affected by Guard in the last 70 seconds.</string>
+			<key>attrib</key>
+			<string>+250  TextHealth
++6  TextHP Regeneration
++2  TextAll Attributes
++5  TextArmor
+BLOCK DAMAGE MELEE: 32
+BLOCK DAMAGE RANGED: 16
+GUARD ARMOR: 2
+GUARD DURATION: 10
+GUARD RADIUS: 900
+GUARD DAMAGE BLOCK : 55</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>60</integer>
+			<key>lore</key>
+			<string>A cuirass originally built to protect against the dreaded Year Beast.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>vanguard</string>
+				<string>buckler</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>blade_mail</key>
+		<dict>
+			<key>id</key>
+			<integer>127</integer>
+			<key>img</key>
+			<string>blade_mail_lg.png</string>
+			<key>dname</key>
+			<string>Blade Mail</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>2200</integer>
+			<key>desc</key>
+			<string>Active: Damage Return - Reflects any damage taken back to the unit that dealt the damage.  Lasts 4.5 seconds.</string>
+			<key>notes</key>
+			<string>Damage Return is calculated after reductions.Damage Return doesn&apos;t reflect damage from other forms of Blademail.Returned damage is pure, and does not pierce spell immunity.  </string>
+			<key>attrib</key>
+			<string>+22  TextDamage
++6  TextArmor
++10  TextIntelligence
+DAMAGE RETURN DURATION: 4.5</string>
+			<key>mc</key>
+			<integer>25</integer>
+			<key>cd</key>
+			<integer>13</integer>
+			<key>lore</key>
+			<string>A razor-sharp coat of mail, it is the choice of selfless martyrs in combat.</string>
+			<key>components</key>
+			<array>
+				<string>broadsword</string>
+				<string>chainmail</string>
+				<string>robe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>soul_booster</key>
+		<dict>
+			<key>id</key>
+			<integer>129</integer>
+			<key>img</key>
+			<string>soul_booster_lg.png</string>
+			<key>dname</key>
+			<string>Soul Booster</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>3200</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+450  TextHealth
++400  TextMana
++4  TextHP Regeneration
++100%  TextMana Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Regain lost courage.</string>
+			<key>components</key>
+			<array>
+				<string>vitality_booster</string>
+				<string>energy_booster</string>
+				<string>point_booster</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>hood_of_defiance</key>
+		<dict>
+			<key>id</key>
+			<integer>131</integer>
+			<key>img</key>
+			<string>hood_of_defiance_lg.png</string>
+			<key>dname</key>
+			<string>Hood of Defiance</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>2100</integer>
+			<key>desc</key>
+			<string>Active: Creastes a spell shield that absorbs up to 325 magical damage.</string>
+			<key>notes</key>
+			<string>Stacks multiplicatively with other sources of spell resistance.</string>
+			<key>attrib</key>
+			<string>+9  TextHP Regeneration
++30%  TextSpell Resistance
+BARRIER BLOCK: 325
+BARRIER DURATION: 12.000000</string>
+			<key>mc</key>
+			<integer>75</integer>
+			<key>cd</key>
+			<integer>60</integer>
+			<key>lore</key>
+			<string>A furred, magic resistant headpiece that is feared by wizards.</string>
+			<key>components</key>
+			<array>
+				<string>ring_of_health</string>
+				<string>cloak</string>
+				<string>ring_of_regen</string>
+				<string>ring_of_regen</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>rapier</key>
+		<dict>
+			<key>id</key>
+			<integer>133</integer>
+			<key>img</key>
+			<string>rapier_lg.png</string>
+			<key>dname</key>
+			<string>Divine Rapier</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>6200</integer>
+			<key>desc</key>
+			<string>Drops on death.  Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up. A dropped Rapier cannot be picked up by a courier.</string>
+			<key>notes</key>
+			<string>If Divine Rapier is dropped and picked up by an enemy of its original owner, it cannot be dropped again except by death.</string>
+			<key>attrib</key>
+			<string>+330  TextDamage</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>So powerful, it cannot have a single owner.</string>
+			<key>components</key>
+			<array>
+				<string>relic</string>
+				<string>demon_edge</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>monkey_king_bar</key>
+		<dict>
+			<key>id</key>
+			<integer>135</integer>
+			<key>img</key>
+			<string>monkey_king_bar_lg.png</string>
+			<key>dname</key>
+			<string>Monkey King Bar</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5400</integer>
+			<key>desc</key>
+			<string>Passive: Mini-Bash - Grants each attack a chance to deal bonus damage and deal a mini-stun.
+Passive: True Strike - Prevents your attacks from missing. True Strike does not work when attacking enemy structures.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+66  TextDamage
++15  TextAttack Speed
+MINI-BASH CHANCE: 35%
+MINI-BASH DAMAGE: 160</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A powerful staff used by a master warrior.</string>
+			<key>components</key>
+			<array>
+				<string>demon_edge</string>
+				<string>javelin</string>
+				<string>javelin</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>radiance</key>
+		<dict>
+			<key>id</key>
+			<integer>137</integer>
+			<key>img</key>
+			<string>radiance_lg.png</string>
+			<key>dname</key>
+			<string>Radiance</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5150</integer>
+			<key>desc</key>
+			<string>Active: Toggle Burn - When active, scorches nearby enemies for 50 damage per second and blinds them, causing them to miss 17% of their attacks.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+65  TextDamage
+BURN DAMAGE PER SECOND: 50
+BURN MISS CHANCE: 17%
+BURN RADIUS: 700</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.</string>
+			<key>components</key>
+			<array>
+				<string>relic</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>butterfly</key>
+		<dict>
+			<key>id</key>
+			<integer>139</integer>
+			<key>img</key>
+			<string>butterfly_lg.png</string>
+			<key>dname</key>
+			<string>Butterfly</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5875</integer>
+			<key>desc</key>
+			<string>Active: Flutter - Trade evasion for 35% additional movement speed for 4.0 seconds.
+
+Stacks diminishingly with other sources of Evasion.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+30  TextAgility
++30  TextDamage
++35%  TextEvasion
++30  TextAttack Speed
+FLUTTER BONUS MOVE SPEED: 35%
+FLUTTER DURATION: 4</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>35</integer>
+			<key>lore</key>
+			<string>Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.</string>
+			<key>components</key>
+			<array>
+				<string>eagle</string>
+				<string>talisman_of_evasion</string>
+				<string>quarterstaff</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>greater_crit</key>
+		<dict>
+			<key>id</key>
+			<integer>141</integer>
+			<key>img</key>
+			<string>greater_crit_lg.png</string>
+			<key>dname</key>
+			<string>Daedalus</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5520</integer>
+			<key>desc</key>
+			<string>Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+81  TextDamage
+CRITICAL CHANCE: 30%
+CRITICAL DAMAGE: 220%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A weapon of incredible power that is difficult for even the strongest of warriors to control.</string>
+			<key>components</key>
+			<array>
+				<string>lesser_crit</string>
+				<string>demon_edge</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>basher</key>
+		<dict>
+			<key>id</key>
+			<integer>143</integer>
+			<key>img</key>
+			<string>basher_lg.png</string>
+			<key>dname</key>
+			<string>Skull Basher</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>2950</integer>
+			<key>desc</key>
+			<string>Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 120 bonus damage, based on whether the equipped hero is ranged or melee.</string>
+			<key>notes</key>
+			<string>Does not stack with other sources of Bash, however it will stack with Mini-Bash (e.g. Monkey King Bar).The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.</string>
+			<key>attrib</key>
+			<string>+10  TextDamage
++10  TextStrength
+BASH MELEE CHANCE: 25%
+BASH RANGED CHANCE: 10%
+BASH STUN DURATION: 1.4
+BASH BONUS DAMAGE: 120</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>2</integer>
+			<key>lore</key>
+			<string>A feared weapon in the right hands, this maul&apos;s ability to shatter the defenses of its opponents should not be underestimated.</string>
+			<key>components</key>
+			<array>
+				<string>belt_of_strength</string>
+				<string>javelin</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>bfury</key>
+		<dict>
+			<key>id</key>
+			<integer>145</integer>
+			<key>img</key>
+			<string>bfury_lg.png</string>
+			<key>dname</key>
+			<string>Battle Fury</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>4525</integer>
+			<key>desc</key>
+			<string>Active: Chop Tree/Ward - Destroy a target tree or ward. Chop cast range is increased when targetting wards.
+Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.
+Passive: Cleave - Deals a percent of attack damage in a 280 area around the target. Ranged units cannot Cleave.</string>
+			<key>notes</key>
+			<string>Cleave damage is reduced by armor type but not by armor value.Cleave damage goes through spell immunity.If multiple sources of Cleave are present, each Cleave&apos;s damage is applied separately.Chop can be used to destroy Techies&apos; Land Mines and Remote Mines.</string>
+			<key>attrib</key>
+			<string>+55  TextDamage
++6  TextHP Regeneration
++150%  TextMana Regeneration
+CLEAVE DAMAGE: 35%
+QUELL MELEE DAMAGE: 160%
+QUELL RANGED DAMAGE: 125%
+CHOP TREE CAST RANGE: 350
+CHOP WARD CAST RANGE: 450</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>4</integer>
+			<key>lore</key>
+			<string>The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.</string>
+			<key>components</key>
+			<array>
+				<string>broadsword</string>
+				<string>claymore</string>
+				<string>pers</string>
+				<string>quelling_blade</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>manta</key>
+		<dict>
+			<key>id</key>
+			<integer>147</integer>
+			<key>img</key>
+			<string>manta_lg.png</string>
+			<key>dname</key>
+			<string>Manta Style</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>4950</integer>
+			<key>desc</key>
+			<string>Active: Mirror Image - Creates 2 images of your hero that last 20 seconds. Melee heroes have a 30 second cooldown on this ability, while for Ranged heroes the cooldown is 45 seconds.
+
+Melee images deal 33% damage and take 350% damage, while Ranged images deal 28% and take 400% damage.
+
+Yasha-based movement speed bonuses from multiple items do not stack.</string>
+			<key>notes</key>
+			<string>Has a 0.1 second cast time during which you are invulnerable.Many effects are removed upon using Manta.</string>
+			<key>attrib</key>
+			<string>+10  TextStrength
++26  TextAgility
++10  TextIntelligence
++15  TextAttack Speed
++10%  TextMovement Speed
+NUMBER OF IMAGES: 2
+IMAGE DURATION: 20
+MELEE IMAGE DAMAGE: 33%
+MELEE IMAGE DAMAGE TAKEN: 350%
+RANGED IMAGE DAMAGE: 28%
+RANGED IMAGE DAMAGE TAKEN: 400%</string>
+			<key>mc</key>
+			<integer>125</integer>
+			<key>cd</key>
+			<integer>45</integer>
+			<key>lore</key>
+			<string>An axe made of reflective materials that causes confusion amongst enemy ranks.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>yasha</string>
+				<string>ultimate_orb</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>lesser_crit</key>
+		<dict>
+			<key>id</key>
+			<integer>149</integer>
+			<key>img</key>
+			<string>lesser_crit_lg.png</string>
+			<key>dname</key>
+			<string>Crystalys</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>2120</integer>
+			<key>desc</key>
+			<string>Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+30  TextDamage
+CRITICAL CHANCE: 20%
+CRITICAL DAMAGE: 175%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A blade forged from rare crystals, it seeks weak points in enemy armor.</string>
+			<key>components</key>
+			<array>
+				<string>broadsword</string>
+				<string>blades_of_attack</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>dragon_lance</key>
+		<dict>
+			<key>id</key>
+			<integer>1025</integer>
+			<key>img</key>
+			<string>dragon_lance_lg.png</string>
+			<key>dname</key>
+			<string>Dragon Lance</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>1875</integer>
+			<key>desc</key>
+			<string>Passive: Increases attack range of ranged heroes by 130.</string>
+			<key>notes</key>
+			<string>Multiple instances do not stack.</string>
+			<key>attrib</key>
+			<string>+10  TextDamage
++10  TextAttack Speed
++10  TextStrength
++130  TextAttack Range font color=&apos;#7d7d7d&apos;(Ranged Only)/font</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>quarterstaff</string>
+				<string>ogre_axe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>armlet</key>
+		<dict>
+			<key>id</key>
+			<integer>151</integer>
+			<key>img</key>
+			<string>armlet_lg.png</string>
+			<key>dname</key>
+			<string>Armlet of Mordiggian</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>2320</integer>
+			<key>desc</key>
+			<string>Active: Toggle Unholy Strength - When active, Unholy Strength grants +31 damage and +25 strength, but drains 40 health per second.  You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.</string>
+			<key>notes</key>
+			<string>The strength change will affect both maximum and current HP, but you cannot die from the change.The strength change occurs over 0.6 seconds.Activating or deactiving Unholy Strength does not interrupt channeling.</string>
+			<key>attrib</key>
+			<string>+9  TextDamage
++25  TextAttack Speed
++5  TextArmor
++7  TextHP Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>0</integer>
+			<key>lore</key>
+			<string>Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.</string>
+			<key>components</key>
+			<array>
+				<string>helm_of_iron_will</string>
+				<string>gloves</string>
+				<string>blades_of_attack</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>invis_sword</key>
+		<dict>
+			<key>id</key>
+			<integer>152</integer>
+			<key>img</key>
+			<string>invis_sword_lg.png</string>
+			<key>dname</key>
+			<string>Shadow Blade</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>2800</integer>
+			<key>desc</key>
+			<string>Active: Shadow Walk - Makes you invisible until the duration ends, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.  Lasts 14.0 seconds.</string>
+			<key>notes</key>
+			<string>Has a 0.3 second fade time.If the invisibility ends without attacking, the bonus damage is lost.</string>
+			<key>attrib</key>
+			<string>+22  TextDamage
++30  TextAttack Speed
+SHADOW WALK DURATION: 14
+SHADOW WALK DAMAGE: 175</string>
+			<key>mc</key>
+			<integer>75</integer>
+			<key>cd</key>
+			<integer>28</integer>
+			<key>lore</key>
+			<string>The blade of a fallen king, it allows you to move unseen and strike from the shadows.</string>
+			<key>components</key>
+			<array>
+				<string>shadow_amulet</string>
+				<string>claymore</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>silver_edge</key>
+		<dict>
+			<key>id</key>
+			<integer>249</integer>
+			<key>img</key>
+			<string>silver_edge_lg.png</string>
+			<key>dname</key>
+			<string>Silver Edge</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>5450</integer>
+			<key>desc</key>
+			<string>Active: Shadow Walk - Makes you invisible until the duration ends, or until you attack or cast a spell.  While invisible, you move 20% faster and can move through units.  Attacking to end the invisibility will deal 225 bonus damage to the target, disable their passive abilities, and reduce their damage output.
+Passive: Lesser Maim - Each attack has a chance to slow the enemy&apos;s movement and attack speed for 4.0 seconds.</string>
+			<key>notes</key>
+			<string>Backstab cannot miss.</string>
+			<key>attrib</key>
+			<string>+32  TextDamage
++30  TextAttack Speed
++16  TextStrength
+MAIM CHANCE: 15%
+MAIM MOVE SLOW: 20%
+MAIM ATTACK SLOW: 20
+MAIM DURATION: 4
+SHADOW WALK DURATION: 14
+BONUS ATTACK DAMAGE: 225
+ENEMY DAMAGE REDUCTION: 40%
+REDUCTION DURATION: 5</string>
+			<key>mc</key>
+			<integer>75</integer>
+			<key>cd</key>
+			<integer>24</integer>
+			<key>lore</key>
+			<string>Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.</string>
+			<key>components</key>
+			<array>
+				<string>invis_sword</string>
+				<string>sange</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>sange_and_yasha</key>
+		<dict>
+			<key>id</key>
+			<integer>154</integer>
+			<key>img</key>
+			<string>sange_and_yasha_lg.png</string>
+			<key>dname</key>
+			<string>Sange and Yasha</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>4100</integer>
+			<key>desc</key>
+			<string>Passive: Greater Maim - Each attack has a chance to slow the enemy&apos;s movement and attack speed for 5.0 seconds.
+
+Yasha-based movement speed bonuses from multiple items do not stack.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+16  TextDamage
++16  TextStrength
++16  TextAgility
++16  TextAttack Speed
++16%  TextMovement Speed
+MAIM CHANCE: 16%
+MAIM MOVEMENT SLOW: 32%
+MAIM ATTACK SLOW: 32
+MAIM DURATION: 5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.</string>
+			<key>components</key>
+			<array>
+				<string>yasha</string>
+				<string>sange</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>satanic</key>
+		<dict>
+			<key>id</key>
+			<integer>156</integer>
+			<key>img</key>
+			<string>satanic_lg.png</string>
+			<key>dname</key>
+			<string>Satanic</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>5900</integer>
+			<key>desc</key>
+			<string>Active: Unholy Rage - Increases Lifesteal percentage to 200% for 4.5 seconds.
+Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.
+
+Satanic is a Unique Attack Modifier, and does not stack with other Unique Attack Modifier.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+20  TextDamage
++25  TextStrength
++5  TextArmor
+LIFESTEAL: 25%
+UNHOLY RAGE LIFESTEAL: 200%
+UNHOLY RAGE DURATION: 4.5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>35</integer>
+			<key>lore</key>
+			<string>Immense power at the cost of your soul.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>reaver</string>
+				<string>helm_of_the_dominator</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>mjollnir</key>
+		<dict>
+			<key>id</key>
+			<integer>158</integer>
+			<key>img</key>
+			<string>mjollnir_lg.png</string>
+			<key>dname</key>
+			<string>Mjollnir</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>5700</integer>
+			<key>desc</key>
+			<string>Active: Static Charge - Places a charged shield on a target unit which has a 20% chance to release a shocking bolt at a nearby attacker and 4 additional enemies.
+Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between 12 targets, dealing 150 magical damage to each.
+
+Mjollnir is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.</string>
+			<key>notes</key>
+			<string>Static Charge cannot trigger more than once per second.Static Charge&apos;s shock deals magical damage centered on hero with the Static Charge. Static Charge&apos;s targets cannot be more than 900 range away.Static Charge procs will not bounce to heroes that are invisible or hidden by Fog of War.</string>
+			<key>attrib</key>
+			<string>+24  TextDamage
++80  TextAttack Speed
+STATIC DURATION: 15
+STATIC CHANCE: 20%
+STATIC DAMAGE: 200
+STATIC RELEASE RADIUS: 900
+CHAIN CHANCE: 25%
+CHAIN DAMAGE: 150
+CHAIN TARGETS: 12
+CHAIN LEAP RADIUS: 900</string>
+			<key>mc</key>
+			<integer>50</integer>
+			<key>cd</key>
+			<integer>35</integer>
+			<key>lore</key>
+			<string>Thor&apos;s magical hammer, made for him by the dwarves Brok and Eitri.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>maelstrom</string>
+				<string>hyperstone</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>skadi</key>
+		<dict>
+			<key>id</key>
+			<integer>160</integer>
+			<key>img</key>
+			<string>skadi_lg.png</string>
+			<key>dname</key>
+			<string>Eye of Skadi</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>5675</integer>
+			<key>desc</key>
+			<string>Passive: Cold Attack - Each attack slows the movement and attack speed of the target. The duration of the slow is based on whether the equipped hero is melee or ranged.
+
+Eye of Skadi is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.  Eye of Skadi can be combined with Lifesteal Attack Modifiers.</string>
+			<key>notes</key>
+			<string>Lasts 5 seconds with melee Eye of Skadi, 3 seconds with ranged Eye of Skadi.</string>
+			<key>attrib</key>
+			<string>+25  TextAll Attributes
++250  TextHealth
++250  TextMana
+COLD MOVE SLOW: 35%
+COLD ATTACK SLOW: 45
+COLD MELEE DURATION: 5
+COLD RANGED DURATION: 2.5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Extremely rare artifact, guarded by the azure dragons.</string>
+			<key>components</key>
+			<array>
+				<string>ultimate_orb</string>
+				<string>ultimate_orb</string>
+				<string>point_booster</string>
+				<string>orb_of_venom</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>sange</key>
+		<dict>
+			<key>id</key>
+			<integer>162</integer>
+			<key>img</key>
+			<string>sange_lg.png</string>
+			<key>dname</key>
+			<string>Sange</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>2050</integer>
+			<key>desc</key>
+			<string>Passive: Lesser Maim - Each attack has a chance to slow the enemy&apos;s movement and attack speed for 4.0 seconds.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextDamage
++16  TextStrength
+MAIM CHANCE: 15%
+MAIM MOVEMENT SLOW: 20%
+MAIM ATTACK SLOW: 20
+MAIM DURATION: 4</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Sange is an unusually accurate weapon, seeking weak points automatically.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>ogre_axe</string>
+				<string>belt_of_strength</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>helm_of_the_dominator</key>
+		<dict>
+			<key>id</key>
+			<integer>164</integer>
+			<key>img</key>
+			<string>helm_of_the_dominator_lg.png</string>
+			<key>dname</key>
+			<string>Helm of the Dominator</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>1800</integer>
+			<key>desc</key>
+			<string>Active: Dominate - Take control of a non-hero, non-ancient target unit and sets its movement speed to 350. If a dominated creep&apos;s base health is naturally below the health minimum, its base health will be raised to the health minimum.
+Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.
+
+Helm of the Dominator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.</string>
+			<key>notes</key>
+			<string>Cannot dominate more than one unit at a time.  If a new unit is dominated, the old one will die.Selling or upgrading Helm of the Dominator will cause dominated units to die.</string>
+			<key>attrib</key>
+			<string>+20  TextDamage
++5  TextArmor
++3  TextHP Regeneration
+LIFESTEAL: 15%
+DOMINATED HEALTH MINIMUM: 1400</string>
+			<key>mc</key>
+			<integer>75</integer>
+			<key>cd</key>
+			<integer>60</integer>
+			<key>lore</key>
+			<string>The powerful headpiece of a dead necromancer.</string>
+			<key>components</key>
+			<array>
+				<string>lifesteal</string>
+				<string>helm_of_iron_will</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>maelstrom</key>
+		<dict>
+			<key>id</key>
+			<integer>166</integer>
+			<key>img</key>
+			<string>maelstrom_lg.png</string>
+			<key>dname</key>
+			<string>Maelstrom</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>2800</integer>
+			<key>desc</key>
+			<string>Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between 4 targets, dealing 120 magical damage to each.
+
+Maelstrom is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+24  TextDamage
++25  TextAttack Speed
+CHAIN CHANCE: 25%
+CHAIN DAMAGE: 120
+CHAIN TARGETS: 4
+CHAIN LEAP RADIUS: 900</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>mithril_hammer</string>
+				<string>gloves</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>desolator</key>
+		<dict>
+			<key>id</key>
+			<integer>168</integer>
+			<key>img</key>
+			<string>desolator_lg.png</string>
+			<key>dname</key>
+			<string>Desolator</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>3500</integer>
+			<key>desc</key>
+			<string>Passive: Corruption - Your attacks reduce target&apos;s armor for 15 seconds.
+
+Desolator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.</string>
+			<key>notes</key>
+			<string>Armor reduction works on buildings.</string>
+			<key>attrib</key>
+			<string>+50  TextDamage
+ARMOR REDUCTION: 7</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>A wicked weapon, used in torturing political criminals.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>mithril_hammer</string>
+				<string>mithril_hammer</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>yasha</key>
+		<dict>
+			<key>id</key>
+			<integer>170</integer>
+			<key>img</key>
+			<string>yasha_lg.png</string>
+			<key>dname</key>
+			<string>Yasha</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>2050</integer>
+			<key>desc</key>
+			<string>Yasha-based movement speed bonuses from multiple items do not stack.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+16  TextAgility
++15  TextAttack Speed
++8%  TextMovement Speed</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Yasha is regarded as the swiftest weapon ever created.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>blade_of_alacrity</string>
+				<string>boots_of_elves</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>mask_of_madness</key>
+		<dict>
+			<key>id</key>
+			<integer>172</integer>
+			<key>img</key>
+			<string>mask_of_madness_lg.png</string>
+			<key>dname</key>
+			<string>Mask of Madness</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>1800</integer>
+			<key>desc</key>
+			<string>Active: Berserk - Gives 100 attack speed and 17% movement speed, but causes you to take extra 30% damage.  Lasts 12.0 seconds.
+Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.
+
+Mask of Madness is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>LIFESTEAL: 20%
+BERSERK ATTACK SPEED: 100
+BERSERK MOVE SPEED: 17%
+BERSERK ADDED DAMAGE TAKEN: 30%
+BERSERK DURATION: 12</string>
+			<key>mc</key>
+			<integer>25</integer>
+			<key>cd</key>
+			<integer>25</integer>
+			<key>lore</key>
+			<string>Once this mask is worn, its bearer becomes an uncontrollable aggressive force.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>lifesteal</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>diffusal_blade_2</key>
+		<dict>
+			<key>id</key>
+			<integer>174</integer>
+			<key>img</key>
+			<string>diffusal_blade_lg.png</string>
+			<key>dname</key>
+			<string>Diffusal Blade</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>3150</integer>
+			<key>desc</key>
+			<string>Active: Purge - If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. If cast on an ally, Purge removes most debuffs.
+Passive: Manabreak - Each attack burns 25 mana from the target, and deals the same amount in physical damage. Burns 12 mana per attack from ranged illusions. Does not stack with other manabreak abilities.
+
+Upgradable.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+25/35  TextAgility
++10/15  TextIntelligence
+PURGE SLOW DURATION:  4
+PURGE CAST RANGE:  600</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>0</integer>
+			<key>lore</key>
+			<string>An enchanted blade that allows the user to cut straight into the enemy&apos;s soul.</string>
+			<key>components</key>
+			<array>
+				<string>recipe</string>
+				<string>blade_of_alacrity</string>
+				<string>blade_of_alacrity</string>
+				<string>robe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>ethereal_blade</key>
+		<dict>
+			<key>id</key>
+			<integer>176</integer>
+			<key>img</key>
+			<string>ethereal_blade_lg.png</string>
+			<key>dname</key>
+			<string>Ethereal Blade</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>4700</integer>
+			<key>desc</key>
+			<string>Active: Ether Blast - Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack.  Can be cast on self.  If the target is an enemy, it is also slowed, and takes 2.0x your primary attribute + 75 as magical damage.
+Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.</string>
+			<key>notes</key>
+			<string>Shares cooldown with Ghost Scepter.Ethereal units take 40% bonus magic damage.Lasts an extra second on Self or Allied cast.</string>
+			<key>attrib</key>
+			<string>+40  TextAgility
++10  TextStrength
++10  TextIntelligence
+BLAST ENEMY MOVE SLOW: 80%
+BLAST ENEMY DURATION: 3
+BLAST ALLY/SELF DURATION: 4
+INCREASED MAGIC DAMAGE: 40%</string>
+			<key>mc</key>
+			<integer>100</integer>
+			<key>cd</key>
+			<integer>20</integer>
+			<key>lore</key>
+			<string>A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.</string>
+			<key>components</key>
+			<array>
+				<string>eagle</string>
+				<string>ghost</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>soul_ring</key>
+		<dict>
+			<key>id</key>
+			<integer>178</integer>
+			<key>img</key>
+			<string>soul_ring_lg.png</string>
+			<key>dname</key>
+			<string>Soul Ring</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>800</integer>
+			<key>desc</key>
+			<string>Active: Sacrifice - Consume 150 health to temporarily gain 150 mana.  Lasts 10 seconds.</string>
+			<key>notes</key>
+			<string>If the mana gain cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool.  If this mana is not used before the duration ends, the extra mana is lost.</string>
+			<key>attrib</key>
+			<string>+3  TextHP Regeneration
++50%  TextMana Regeneration
+SACRIFICE DURATION: 10</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>30</integer>
+			<key>lore</key>
+			<string>A ring that feeds on the souls of those who wear it.</string>
+			<key>components</key>
+			<array>
+				<string>ring_of_regen</string>
+				<string>sobi_mask</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>arcane_boots</key>
+		<dict>
+			<key>id</key>
+			<integer>180</integer>
+			<key>img</key>
+			<string>arcane_boots_lg.png</string>
+			<key>dname</key>
+			<string>Arcane Boots</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>1350</integer>
+			<key>desc</key>
+			<string>Active: Replenish Mana - Restores mana to all allies in a 900 area around the hero.
+
+Flat movement speed bonuses from multiple pairs of boots do not stack.</string>
+			<key>notes</key>
+			<string>Does not work on Meepo clones.</string>
+			<key>attrib</key>
+			<string>+50  TextMovement Speed
++250  TextMana
+REPLENISH MANA RESTORE: 135
+REPLENISH CAST RADIUS: 900</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>55</integer>
+			<key>lore</key>
+			<string>Magi equipped with these boots are valued in battle.</string>
+			<key>components</key>
+			<array>
+				<string>boots</string>
+				<string>energy_booster</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>octarine_core</key>
+		<dict>
+			<key>id</key>
+			<integer>235</integer>
+			<key>img</key>
+			<string>octarine_core_lg.png</string>
+			<key>dname</key>
+			<string>Octarine Core</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>5900</integer>
+			<key>desc</key>
+			<string>Passive: Cooldown Reduction - Reduces the cooldown time of all spells and items by 25%.
+Passive: Spell Lifesteal - A percentage of damage caused by spells is returned to the caster as health.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+25  TextIntelligence
++450  TextHealth
++400  TextMana
++4  TextHP Regeneration
++100%  TextMana Regeneration
+COOLDOWN REDUCTION: 25%
+HERO SPELL LIFESTEAL: 25%
+CREEP SPELL LIFESTEAL: 5%</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>At the core of spellcraft are spectrums only the very gifted can sense.</string>
+			<key>components</key>
+			<array>
+				<string>mystic_staff</string>
+				<string>soul_booster</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>orb_of_venom</key>
+		<dict>
+			<key>id</key>
+			<integer>181</integer>
+			<key>img</key>
+			<string>orb_of_venom_lg.png</string>
+			<key>dname</key>
+			<string>Orb of Venom</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>275</integer>
+			<key>desc</key>
+			<string>Passive: Poison Attack - Poisons the target, dealing damage over time and slowing movement based on whether the equipped hero is melee or ranged.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>POISON DAMAGE PER SECOND: 3
+POISON MELEE SLOW: 12%
+POISON RANGED SLOW: 4%
+POISON DURATION: 4</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>Envenoms your veapon with the venom of a venomous viper.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>ancient_janggo</key>
+		<dict>
+			<key>id</key>
+			<integer>185</integer>
+			<key>img</key>
+			<string>ancient_janggo_lg.png</string>
+			<key>dname</key>
+			<string>Drum of Endurance</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>1850</integer>
+			<key>desc</key>
+			<string>Active: Endurance - Gives bonus +25 attack speed and +13% movement speed to allies in a 900 radius.
+Passive: Swiftness Aura - Gives bonus attack and movement speed to allies in a 900 radius.
+
+Multiple instances of Swiftness Aura do not stack.</string>
+			<key>notes</key>
+			<string>Re-purchasing the Drum of Endurance recipe will refresh its charges.</string>
+			<key>attrib</key>
+			<string>+9  TextAll Attributes
++3  TextDamage
+AURA ATTACK SPEED: 5
+AURA MOVE SPEED: 5%
+ENDURANCE ATTACK SPEED: 25
+ENDURANCE MOVE SPEED: 13%
+ENDURANCE DURATION: 6
+AURA/ENDURANCE RADIUS: 900</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>30</integer>
+			<key>lore</key>
+			<string>A relic that enchants the bodies of those around it for swifter movement in times of crisis.</string>
+			<key>components</key>
+			<array>
+				<string>robe</string>
+				<string>bracer</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>medallion_of_courage</key>
+		<dict>
+			<key>id</key>
+			<integer>187</integer>
+			<key>img</key>
+			<string>medallion_of_courage_lg.png</string>
+			<key>dname</key>
+			<string>Medallion of Courage</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>1200</integer>
+			<key>desc</key>
+			<string>Active: Valor - If cast on an ally, increases their armor while reducing the caster&apos;s. If cast on an enemy, reduces the armor of both the enemy and the caster. Cannot target magic immune enemies. Armor reduction is halved against Roshan.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+7  TextArmor
++50%  TextMana Regeneration
+VALOR ARMOR REDUCTION: 7
+VALOR DURATION: 7
+VALOR CAST RANGE: 1000</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>7</integer>
+			<key>lore</key>
+			<string>The bearer has no fear of combat.</string>
+			<key>components</key>
+			<array>
+				<string>chainmail</string>
+				<string>sobi_mask</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>solar_crest</key>
+		<dict>
+			<key>id</key>
+			<integer>229</integer>
+			<key>img</key>
+			<string>solar_crest_lg.png</string>
+			<key>dname</key>
+			<string>Solar Crest</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>3000</integer>
+			<key>desc</key>
+			<string>Active: Shine - Temporarily removes the armor and evasion from Solar Crest. When cast on an ally it grants them 10 armor and 25% evasion. When cast on an enemy, it removes 10 of their armor and blinds them, causing them to miss 25% of their attacks. Cannot target magic immune enemies. Armor reduction is halved against Roshan.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+10  TextArmor
++75%  TextMana Regeneration
++25%  TextEvasion
+SHINE ALLY BONUS ARMOR: 10
+SHINE ALLY EVASION: 25%
+SHINE ENEMY ARMOR LOSS: 10
+SHINE ENEMY MISS CHANCE: 25%
+SHINE DURATION: 7
+SHINE CAST RANGE: 1000</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>7</integer>
+			<key>lore</key>
+			<string>A talisman forged to honor the daytime sky.</string>
+			<key>components</key>
+			<array>
+				<string>medallion_of_courage</string>
+				<string>talisman_of_evasion</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>smoke_of_deceit</key>
+		<dict>
+			<key>id</key>
+			<integer>188</integer>
+			<key>img</key>
+			<string>smoke_of_deceit_lg.png</string>
+			<key>dname</key>
+			<string>Smoke of Deceit</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>50</integer>
+			<key>desc</key>
+			<string>Use: Upon activation, the user and all nearby allied player-controlled units gain invisibility and bonus movement speed for a brief time.  Minimap icons will also be hidden.  Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>BONUS SPEED: 15%
+DURATION: 35</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>90</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>veil_of_discord</key>
+		<dict>
+			<key>id</key>
+			<integer>190</integer>
+			<key>img</key>
+			<string>veil_of_discord_lg.png</string>
+			<key>dname</key>
+			<string>Veil of Discord</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>2270</integer>
+			<key>desc</key>
+			<string>Active: Magic Weakness - Emits a weakening blast that increases the magic damage enemies take. Lasts 16.0 seconds.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+6  TextHP Regeneration
++6  TextArmor
++6  TextAgility
++6  TextStrength
++6  TextDamage
++18  TextIntelligence
+INCREASED MAGIC DAMAGE: 25%
+MAGIC WEAKNESS RADIUS: 600
+MAGIC WEAKNESS DURATION: 16</string>
+			<key>mc</key>
+			<integer>50</integer>
+			<key>cd</key>
+			<integer>20</integer>
+			<key>lore</key>
+			<string>The headwear of corrupt magi.</string>
+			<key>components</key>
+			<array>
+				<string>helm_of_iron_will</string>
+				<string>null_talisman</string>
+				<string>robe</string>
+				<string>robe</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>guardian_greaves</key>
+		<dict>
+			<key>id</key>
+			<integer>231</integer>
+			<key>img</key>
+			<string>guardian_greaves_lg.png</string>
+			<key>dname</key>
+			<string>Guardian Greaves</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>5300</integer>
+			<key>desc</key>
+			<string>Active: Mend - Restores 250 health and 160 mana to nearby allies, and removes most negative buffs from the caster.
+Passive: Guardian Aura - Provides nearby allies with 4 health regeneration and 2 bonus armor. If an allied hero&apos;s health falls below 20%, they receive 15 health regeneration and 15 armor.</string>
+			<key>notes</key>
+			<string>The aura boost only applies to heroes.</string>
+			<key>attrib</key>
+			<string>+55  TextMovement Speed
++250  TextMana
++5  TextAll Attributes
++5  TextArmor
+AURA HEALTH REGEN: 4
+AURA ARMOR: 2
+AURA BOOST HEALTH REGEN: 15
+AURA BOOST ARMOR: 15
+AURA BOOST THRESHOLD: 20%
+MEND HEAL: 250
+MEND MANA RESTORE: 160
+AURA/MEND RADIUS: 900</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>40</integer>
+			<key>lore</key>
+			<string>One of many holy instruments constructed to honor the Omniscience.</string>
+			<key>components</key>
+			<array>
+				<string>mekansm</string>
+				<string>arcane_boots</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>rod_of_atos</key>
+		<dict>
+			<key>id</key>
+			<integer>206</integer>
+			<key>img</key>
+			<string>rod_of_atos_lg.png</string>
+			<key>dname</key>
+			<string>Rod of Atos</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>3100</integer>
+			<key>desc</key>
+			<string>Active: Cripple - Slows the target&apos;s movement speed and grants units that attack the target 40% accuracy.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+30  TextIntelligence
++350  TextHealth
+CRIPPLE MOVE SLOW: 60%
+CRIPPLE DURATION: 4
+CRIPPLE ENEMY ACCURACY: 40%</string>
+			<key>mc</key>
+			<integer>50</integer>
+			<key>cd</key>
+			<integer>12</integer>
+			<key>lore</key>
+			<string>Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.</string>
+			<key>components</key>
+			<array>
+				<string>vitality_booster</string>
+				<string>staff_of_wizardry</string>
+				<string>staff_of_wizardry</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>iron_talon</key>
+		<dict>
+			<key>id</key>
+			<integer>273</integer>
+			<key>img</key>
+			<string>iron_talon_lg.png</string>
+			<key>dname</key>
+			<string>Iron Talon</string>
+			<key>qual</key>
+			<string>common</string>
+			<key>cost</key>
+			<integer>500</integer>
+			<key>desc</key>
+			<string>Active: Targets a non-player enemy unit to remove 40% of its current HP.
+Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.</string>
+			<key>notes</key>
+			<string>Has a 4 second cooldown on Trees.Cannot target ancients.</string>
+			<key>attrib</key>
+			<string>QUELL MELEE DAMAGE: 140%
+QUELL RANGED DAMAGE: 115%
++2  TextArmor</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>14</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array>
+				<string>quelling_blade</string>
+				<string>ring_of_protection</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>abyssal_blade</key>
+		<dict>
+			<key>id</key>
+			<integer>208</integer>
+			<key>img</key>
+			<string>abyssal_blade_lg.png</string>
+			<key>dname</key>
+			<string>Abyssal Blade</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>6750</integer>
+			<key>desc</key>
+			<string>Active: Overwhelm - Stuns a target enemy unit for 2.0 seconds. Pierces Spell Immunity.
+Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 120 bonus damage, based on whether the equipped hero is ranged or melee.</string>
+			<key>notes</key>
+			<string>The stun is melee range.Doesn&apos;t stack with other bashes.The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.</string>
+			<key>attrib</key>
+			<string>+70  TextDamage
++10  TextStrength
+BASH MELEE CHANCE: 25%
+BASH RANGED CHANCE: 10%
+BASH STUN DURATION: 1.4
+BASH BONUS DAMAGE: 120
+OVERWHELM STUN DURATION: 2</string>
+			<key>mc</key>
+			<integer>150</integer>
+			<key>cd</key>
+			<integer>60</integer>
+			<key>lore</key>
+			<string>The lost blade of the Commander of the Abyss, this edge cuts into an enemy&apos;s soul.</string>
+			<key>components</key>
+			<array>
+				<string>basher</string>
+				<string>relic</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>heavens_halberd</key>
+		<dict>
+			<key>id</key>
+			<integer>210</integer>
+			<key>img</key>
+			<string>heavens_halberd_lg.png</string>
+			<key>dname</key>
+			<string>Heaven&apos;s Halberd</string>
+			<key>qual</key>
+			<string>artifact</string>
+			<key>cost</key>
+			<integer>3850</integer>
+			<key>desc</key>
+			<string>Active: Disarm - Prevents a target from attacking. Lasts 3.0 seconds on melee targets, and 4.5 seconds on ranged targets.
+Passive: Lesser Maim - Each attack has a chance to slow the enemy&apos;s movement and attack speed for 4.0 seconds.
+
+Stacks diminishingly with other sources of Evasion.</string>
+			<key>notes</key>
+			<string>Disarm can only be removed with spell immunity.</string>
+			<key>attrib</key>
+			<string>+25%  TextEvasion
++25  TextDamage
++20  TextStrength
+MAIM CHANCE: 15%
+MAIM MOVEMENT SLOW: 20%
+MAIM ATTACK SLOW: 20
+MAIM DURATION: 4
+DISARM RANGED DURATION: 4.5
+DISARM MELEE DURATION: 3
+DISARM CAST RANGE: 600</string>
+			<key>mc</key>
+			<integer>100</integer>
+			<key>cd</key>
+			<integer>30</integer>
+			<key>lore</key>
+			<string>This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.</string>
+			<key>components</key>
+			<array>
+				<string>sange</string>
+				<string>talisman_of_evasion</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>ring_of_aquila</key>
+		<dict>
+			<key>id</key>
+			<integer>212</integer>
+			<key>img</key>
+			<string>ring_of_aquila_lg.png</string>
+			<key>dname</key>
+			<string>Ring of Aquila</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>1010</integer>
+			<key>desc</key>
+			<string>Passive: Aquila Aura - Grants mana regeneration and armor in a 900 area of effect.
+Active: Toggle whether the aura affects other non-hero units.
+
+Multiple instances of Aquila Aura do not stack.</string>
+			<key>notes</key>
+			<string>Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir&apos;s Offering.</string>
+			<key>attrib</key>
+			<string>+9  TextDamage
++3  TextStrength
++9  TextAgility
++3  TextIntelligence
++1  TextArmor
+AURA MANA REGEN: 0.65
+AURA BONUS ARMOR: 2</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>The ring of the fallen Warlord Aquila continues to support armies in battle.</string>
+			<key>components</key>
+			<array>
+				<string>wraith_band</string>
+				<string>ring_of_basilius</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>tranquil_boots</key>
+		<dict>
+			<key>id</key>
+			<integer>214</integer>
+			<key>img</key>
+			<string>tranquil_boots_lg.png</string>
+			<key>dname</key>
+			<string>Tranquil Boots</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>1000</integer>
+			<key>desc</key>
+			<string>Passive: Break - Whenever you attack or are attacked, the health regeneration and 30 Movement Speed are lost for 13 seconds.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+85  TextMovement Speed
++3  TextArmor
++12  TextHP Regeneration</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>13</integer>
+			<key>lore</key>
+			<string>While they increase the longevity of the wearer, this boot is not particularly reliable.</string>
+			<key>components</key>
+			<array>
+				<string>boots</string>
+				<string>ring_of_protection</string>
+				<string>ring_of_regen</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>shadow_amulet</key>
+		<dict>
+			<key>id</key>
+			<integer>215</integer>
+			<key>img</key>
+			<string>shadow_amulet_lg.png</string>
+			<key>dname</key>
+			<string>Shadow Amulet</string>
+			<key>qual</key>
+			<false/>
+			<key>cost</key>
+			<integer>1400</integer>
+			<key>desc</key>
+			<string>Active: Fade - Grants invisibility to you or a target allied hero after a 1.5 second fade time. Moving breaks the invisibility. There is no cooldown when using this item on yourself.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+20  TextAttack Speed
+FADE TIME: 1.5</string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>10</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>glimmer_cape</key>
+		<dict>
+			<key>id</key>
+			<integer>254</integer>
+			<key>img</key>
+			<string>glimmer_cape_lg.png</string>
+			<key>dname</key>
+			<string>Glimmer Cape</string>
+			<key>qual</key>
+			<string>rare</string>
+			<key>cost</key>
+			<integer>1950</integer>
+			<key>desc</key>
+			<string>Active: Glimmer - After a 0.6 second delay, grants invisibility and 45% magic resistance to you or a target allied unit. Can be cast while channelling.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string>+20  TextAttack Speed
++15%  TextSpell Resistance
+GLIMMER FADE TIME: 0.6
+GLIMMER MAGIC RESISTANCE: 45%
+GLIMMER DURATION: 5</string>
+			<key>mc</key>
+			<integer>110</integer>
+			<key>cd</key>
+			<integer>16</integer>
+			<key>lore</key>
+			<string>The stolen cape of a master illusionist.</string>
+			<key>components</key>
+			<array>
+				<string>shadow_amulet</string>
+				<string>cloak</string>
+			</array>
+			<key>created</key>
+			<true/>
+		</dict>
+		<key>halloween_candy_corn</key>
+		<dict>
+			<key>id</key>
+			<integer>1000</integer>
+			<key>img</key>
+			<string>halloween_candy_corn_lg.png</string>
+			<key>dname</key>
+			<string>Greevil Taffy</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use: Deposit the candy in your bucket to give all heroes on the map gold and XP, or use it to satisfy a rampaging Roshan&apos;s sweet tooth. Get the highest candy in your bucket to win a prize! Carrying candy makes you less healthy, and decreases your max HP.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>0</integer>
+			<key>lore</key>
+			<string>A strange looking candy, made out of Greevil cream and gummy vitamins.</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mystery_hook</key>
+		<dict>
+			<key>id</key>
+			<integer>1001</integer>
+			<key>img</key>
+			<string>mystery_hook_lg.png</string>
+			<key>dname</key>
+			<string>DOTA_Tooltip_Ability_item_mystery_hook</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<integer>140</integer>
+			<key>cd</key>
+			<integer>11</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mystery_arrow</key>
+		<dict>
+			<key>id</key>
+			<integer>1002</integer>
+			<key>img</key>
+			<string>mystery_arrow_lg.png</string>
+			<key>dname</key>
+			<string>DOTA_Tooltip_Ability_item_mystery_arrow</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>2</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mystery_missile</key>
+		<dict>
+			<key>id</key>
+			<integer>1003</integer>
+			<key>img</key>
+			<string>mystery_missile_lg.png</string>
+			<key>dname</key>
+			<string>DOTA_Tooltip_Ability_item_mystery_missile</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>20</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mystery_toss</key>
+		<dict>
+			<key>id</key>
+			<integer>1004</integer>
+			<key>img</key>
+			<string>mystery_toss_lg.png</string>
+			<key>dname</key>
+			<string>DOTA_Tooltip_Ability_item_mystery_toss</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>2</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>mystery_vacuum</key>
+		<dict>
+			<key>id</key>
+			<integer>1005</integer>
+			<key>img</key>
+			<string>mystery_vacuum_lg.png</string>
+			<key>dname</key>
+			<string>DOTA_Tooltip_Ability_item_mystery_vacuum</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>2</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>halloween_rapier</key>
+		<dict>
+			<key>id</key>
+			<integer>1006</integer>
+			<key>img</key>
+			<string>halloween_rapier_lg.png</string>
+			<key>dname</key>
+			<string>DOTA_Tooltip_Ability_item_halloween_rapier</string>
+			<key>qual</key>
+			<string>epic</string>
+			<key>cost</key>
+			<integer>6200</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>greevil_whistle</key>
+		<dict>
+			<key>id</key>
+			<integer>1007</integer>
+			<key>img</key>
+			<string>greevil_whistle_lg.png</string>
+			<key>dname</key>
+			<string>Greevil Whistle</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the Greevil Whistle to temporarily transform into your Greevil!</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>120</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>greevil_whistle_toggle</key>
+		<dict>
+			<key>id</key>
+			<integer>1008</integer>
+			<key>img</key>
+			<string>greevil_whistle_toggle_lg.png</string>
+			<key>dname</key>
+			<string>Greevil Whistle</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the Greevil Whistle to toggle between Greevil and Hero!</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>2</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>present</key>
+		<dict>
+			<key>id</key>
+			<integer>1009</integer>
+			<key>img</key>
+			<string>present_lg.png</string>
+			<key>dname</key>
+			<string>A Gift!</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string></string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>0</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_stocking</key>
+		<dict>
+			<key>id</key>
+			<integer>1010</integer>
+			<key>img</key>
+			<string>winter_stocking_lg.png</string>
+			<key>dname</key>
+			<string>Xmas Stocking</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use: Open Stocking to receive your gifts!</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>0</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_skates</key>
+		<dict>
+			<key>id</key>
+			<integer>1011</integer>
+			<key>img</key>
+			<string>winter_skates_lg.png</string>
+			<key>dname</key>
+			<string>Speed Skates</string>
+			<key>qual</key>
+			<string>component</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Gives a massive increase of 100 to movespeed. Increases control on the ice. Use short paths for the best result!</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_cake</key>
+		<dict>
+			<key>id</key>
+			<integer>1012</integer>
+			<key>img</key>
+			<string>winter_cake_lg.png</string>
+			<key>dname</key>
+			<string>Fruit-bit Cake</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the cake to heal 400 health and 50 mana over 8 seconds</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_cookie</key>
+		<dict>
+			<key>id</key>
+			<integer>1013</integer>
+			<key>img</key>
+			<string>winter_cookie_lg.png</string>
+			<key>dname</key>
+			<string>Wizard Cookie</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the cookie to heal 350 health and 100 mana over 11 seconds</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_coco</key>
+		<dict>
+			<key>id</key>
+			<integer>1014</integer>
+			<key>img</key>
+			<string>winter_coco_lg.png</string>
+			<key>dname</key>
+			<string>Cocoa with Marshmallows</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the cocoa to heal 300 health and 150 mana over 14 seconds</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_ham</key>
+		<dict>
+			<key>id</key>
+			<integer>1015</integer>
+			<key>img</key>
+			<string>winter_ham_lg.png</string>
+			<key>dname</key>
+			<string>Clove Studded Ham</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the ham to heal 300 health and 75 mana over 2 seconds</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_kringle</key>
+		<dict>
+			<key>id</key>
+			<integer>1016</integer>
+			<key>img</key>
+			<string>winter_kringle_lg.png</string>
+			<key>dname</key>
+			<string>Kringle</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the kringle to heal 250 health and 200 mana over 17 seconds</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_mushroom</key>
+		<dict>
+			<key>id</key>
+			<integer>1017</integer>
+			<key>img</key>
+			<string>winter_mushroom_lg.png</string>
+			<key>dname</key>
+			<string>Snow Mushroom</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Refreshes all the Greevil&apos;s abilities.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_greevil_treat</key>
+		<dict>
+			<key>id</key>
+			<integer>1018</integer>
+			<key>img</key>
+			<string>winter_greevil_treat_lg.png</string>
+			<key>dname</key>
+			<string>Greevil Treat</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Makes your greevil move at max speed for 10 seconds.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string>There is nothing faster than a greevil eating his favorite treat!</string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_greevil_garbage</key>
+		<dict>
+			<key>id</key>
+			<integer>1019</integer>
+			<key>img</key>
+			<string>winter_greevil_garbage_lg.png</string>
+			<key>dname</key>
+			<string>Greevil Chow</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>Use the chow to heal your greevil 400 health and 150 mana over 5 seconds.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<false/>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+		<key>winter_greevil_chewy</key>
+		<dict>
+			<key>id</key>
+			<integer>1020</integer>
+			<key>img</key>
+			<string>winter_greevil_chewy_lg.png</string>
+			<key>dname</key>
+			<string>Greevil Blink Bone</string>
+			<key>qual</key>
+			<string>consumable</string>
+			<key>cost</key>
+			<integer>0</integer>
+			<key>desc</key>
+			<string>After channeling for 2 seconds the greevil pops to the new location.</string>
+			<key>notes</key>
+			<string></string>
+			<key>attrib</key>
+			<string></string>
+			<key>mc</key>
+			<false/>
+			<key>cd</key>
+			<integer>10</integer>
+			<key>lore</key>
+			<string></string>
+			<key>components</key>
+			<array/>
+			<key>created</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

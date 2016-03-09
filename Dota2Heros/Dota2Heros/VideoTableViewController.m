@@ -10,12 +10,10 @@
 #import "videoTableViewCell.h"
 #import "videoPlayViewController.h"
 #import "VideoTableViewModal.h"
-//#import <AVFoundation/AVFoundation.h>
-//#import <CoreMedia/CoreMedia.h>
+#import "hfyPageView.h"
 #import <UIImageView+WebCache.h>
 
 @interface VideoTableViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *videoImage;
 @property (nonatomic,strong) NSArray *imageData;
 @property (nonatomic,strong) NSArray *titleData;
 @property (nonatomic,strong) NSArray *videoUserName;
@@ -43,8 +41,16 @@
 
  - (void)configTableView
 {
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.view.backgroundColor = [UIColor colorWithRed:93.0/255.0 green:71.0/255.0 blue:139.0/255.0 alpha:1.0];
+
+    hfyPageView *pageView = [hfyPageView pageView];
+    pageView.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, 200);
+    pageView.iamgeUrl = self.imageData;
+    pageView.otherColor = [UIColor whiteColor];
+    pageView.currentColor = [UIColor colorWithRed:93.0/255.0 green:71.0/255.0 blue:139.0/255.0 alpha:1.0];
+    [self.tableView setTableHeaderView:pageView];
+    
 }
 
  - (void)configNavigationBar
@@ -110,6 +116,18 @@
     return 1;
 }
 
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 2;
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section
+{
+//    view.tintColor = [UIColor colorWithRed:142.0/255.0 green:139.0/255.0 blue:162.0/255.0 alpha:1.0];
+    view.tintColor = [UIColor colorWithRed:68.0/255.0 green:52.0/255.0 blue:105.0/255.0 alpha:1.0];;
+}
+
  - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
@@ -127,6 +145,21 @@
 
     return cell;
     
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    videoPlayViewController *playView = [[videoPlayViewController alloc]init];
+    
+    if (indexPath.row <= self.cellModal.realUrl.count) {
+        playView.videoUrl = self.self.cellModal.realUrl[indexPath.row];
+        NSLog(@"self.cellModal.Url[path.row] %@",self.self.cellModal.Url[indexPath.row]);
+        playView.tittle = self.titleData[indexPath.row];
+        playView.detail = self.videoUserName[indexPath.row];
+    }
+    
+    playView.view.backgroundColor = [UIColor blackColor];
+    
+    [self.navigationController pushViewController:playView animated:YES];
 }
 
 

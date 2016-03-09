@@ -63,17 +63,10 @@
 
 - (void)configTableView
 {
-    
     self.tableView.estimatedRowHeight = 100;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
-//    self.tableView.backgroundColor = [UIColor colorWithRed:225.0/255.0 green:228.0/255.0 blue:255.0/255.0 alpha:1.0];
-        self.tableView.backgroundColor = [UIColor blackColor];
+    self.tableView.backgroundColor = [UIColor blackColor];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-
-//    [[UITableViewHeaderFooterView appearance]setTintColor:[UIColor colorWithRed:46.0/255.0 green:46.0/255.0 blue:54.0/255.0 alpha:1.0]];
-//    [[UITableViewHeaderFooterView appearance]setTintColor:[UIColor colorWithRed:76.0/255.0 green:76.0/255.0 blue:76.0/255.0 alpha:1.0]];
-
-
 }
 
 - (void)initData
@@ -105,6 +98,7 @@
     }else{
         self.cooldownTextLabel.text = [NSString stringWithFormat:@"%@",self.itemsData[self.selectName][@"cd"]];
     }
+    
     
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section

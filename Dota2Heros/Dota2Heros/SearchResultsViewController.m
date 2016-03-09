@@ -41,10 +41,18 @@
      HeroTableViewCell *cell = (HeroTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     cell.textLabel.text = [self.searchDataArray objectAtIndex:indexPath.row];
-    
+//    cell.iconImageView.image = [UIImage imageNamed:@""]
     
     
     return cell;
 }
 
+//-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    UIViewController *view = [[UIViewController alloc]init];
+//    view.view.frame = self.view.bounds;
+//    
+//    self.navigationController pushViewController:view animated:YES
+//    
+//}
 @end

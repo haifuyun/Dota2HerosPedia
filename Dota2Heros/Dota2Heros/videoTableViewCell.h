@@ -12,5 +12,4 @@
 @property (weak, nonatomic) IBOutlet UIImageView *videoImage;
 @property (weak, nonatomic) IBOutlet UILabel *cellTitle;
 
-@property (weak, nonatomic) IBOutlet UIButton *videoCellButton;
 @end

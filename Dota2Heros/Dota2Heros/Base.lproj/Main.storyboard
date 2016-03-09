@@ -296,57 +296,47 @@
         <scene sceneID="hTU-nO-S5h">
             <objects>
                 <tableViewController storyboardIdentifier="VideoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kpM-de-Mqw" customClass="VideoTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="175" sectionHeaderHeight="28" sectionFooterHeight="28" id="JZH-An-TyX">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="JZH-An-TyX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoCell" rowHeight="175" id="dNH-LD-jGq" customClass="videoTableViewCell">
-                                <rect key="frame" x="0.0" y="92" width="600" height="175"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoCell" rowHeight="100" id="dNH-LD-jGq" customClass="videoTableViewCell">
+                                <rect key="frame" x="0.0" y="92" width="600" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dNH-LD-jGq" id="kqx-vk-Tzt">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="174"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzl-dN-gYA">
-                                            <rect key="frame" x="0.0" y="2" width="600" height="171"/>
-                                            <connections>
-                                                <action selector="videoCellClick:" destination="kpM-de-Mqw" eventType="touchUpInside" id="yDe-xr-20y"/>
-                                            </connections>
-                                        </button>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jbx-Yj-oZN">
-                                            <rect key="frame" x="0.0" y="2" width="600" height="171"/>
+                                            <rect key="frame" x="1" y="2" width="149" height="95"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="149" id="Ric-FX-ZiF"/>
+                                            </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="超级牛逼无敌的视频滚动DOTA2视频" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37f-Kg-3S1">
-                                            <rect key="frame" x="0.0" y="0.0" width="584" height="25"/>
+                                            <rect key="frame" x="150" y="-5" width="440" height="25"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="25" id="hDJ-tM-uUZ"/>
+                                                <constraint firstAttribute="height" constant="25" id="LTH-MC-g2b"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                            <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.88144686189999999" green="0.8943188353" blue="1" alpha="0.89781788789999994" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="Jbx-Yj-oZN" firstAttribute="leading" secondItem="kqx-vk-Tzt" secondAttribute="leading" id="6po-Ny-K4R"/>
-                                        <constraint firstItem="zzl-dN-gYA" firstAttribute="centerY" secondItem="Jbx-Yj-oZN" secondAttribute="centerY" id="8TA-7B-k1K"/>
-                                        <constraint firstItem="zzl-dN-gYA" firstAttribute="top" secondItem="Jbx-Yj-oZN" secondAttribute="top" id="9BQ-S2-k40"/>
-                                        <constraint firstItem="37f-Kg-3S1" firstAttribute="leading" secondItem="Jbx-Yj-oZN" secondAttribute="leading" id="Kcy-ME-77a"/>
-                                        <constraint firstAttribute="trailing" secondItem="Jbx-Yj-oZN" secondAttribute="trailing" id="Tog-Js-sCV"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="37f-Kg-3S1" secondAttribute="trailing" constant="8" id="bBb-Vg-R5e"/>
-                                        <constraint firstItem="zzl-dN-gYA" firstAttribute="leading" secondItem="37f-Kg-3S1" secondAttribute="leading" id="dL3-kS-h9E"/>
-                                        <constraint firstItem="Jbx-Yj-oZN" firstAttribute="centerY" secondItem="kqx-vk-Tzt" secondAttribute="centerY" id="mts-4J-FnH"/>
-                                        <constraint firstItem="Jbx-Yj-oZN" firstAttribute="top" secondItem="kqx-vk-Tzt" secondAttribute="topMargin" constant="-6" id="uAh-jn-VqW"/>
-                                        <constraint firstItem="zzl-dN-gYA" firstAttribute="trailing" secondItem="Jbx-Yj-oZN" secondAttribute="trailing" id="yxA-M4-26h"/>
-                                        <constraint firstItem="37f-Kg-3S1" firstAttribute="top" secondItem="kqx-vk-Tzt" secondAttribute="top" id="zdC-c3-uWe"/>
+                                        <constraint firstItem="Jbx-Yj-oZN" firstAttribute="leading" secondItem="kqx-vk-Tzt" secondAttribute="leading" constant="1" id="5XL-Tq-Tg7"/>
+                                        <constraint firstItem="37f-Kg-3S1" firstAttribute="leading" secondItem="Jbx-Yj-oZN" secondAttribute="trailing" id="MB3-wB-tla"/>
+                                        <constraint firstItem="Jbx-Yj-oZN" firstAttribute="top" secondItem="kqx-vk-Tzt" secondAttribute="topMargin" constant="-6" id="dPZ-Wl-Iqo"/>
+                                        <constraint firstItem="Jbx-Yj-oZN" firstAttribute="bottom" secondItem="kqx-vk-Tzt" secondAttribute="bottomMargin" constant="6" id="nk6-y6-Zez"/>
+                                        <constraint firstItem="37f-Kg-3S1" firstAttribute="trailing" secondItem="kqx-vk-Tzt" secondAttribute="trailingMargin" constant="-2" id="onv-te-e4B"/>
+                                        <constraint firstItem="37f-Kg-3S1" firstAttribute="top" secondItem="Jbx-Yj-oZN" secondAttribute="top" constant="-7" id="rDc-qS-gjb"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="cellTitle" destination="37f-Kg-3S1" id="f9d-OU-d5U"/>
-                                    <outlet property="videoCellButton" destination="zzl-dN-gYA" id="EIq-U3-R0p"/>
                                     <outlet property="videoImage" destination="Jbx-Yj-oZN" id="YEB-8o-4b8"/>
                                 </connections>
                             </tableViewCell>
@@ -612,7 +602,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vWg-1F-ZkP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3355" y="1839"/>
+            <point key="canvasLocation" x="461" y="1968"/>
         </scene>
     </scenes>
     <resources>

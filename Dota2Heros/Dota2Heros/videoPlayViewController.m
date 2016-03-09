@@ -38,8 +38,15 @@
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     [self.videoController pause];
 
+}
+
+ - (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
-    
+    [self.videoController stop];
+    [self.videoController cancelObserver];
+    self.videoController = nil;
 }
 
  - (void)setVideoDetailView
@@ -78,13 +85,7 @@
 }
 
 
- - (void)viewDidDisappear:(BOOL)animated
-{
-    [self.videoController stop];
-    [self.videoController cancelObserver];
-    self.videoController = nil;
-    
-}
+
 
  - (void)didReceiveMemoryWarning
 {

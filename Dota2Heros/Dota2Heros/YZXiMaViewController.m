@@ -79,60 +79,15 @@
 // 添加所有子控制器
 - (void)setUpAllViewController
 {
+    NSArray *items = @[@"Consumables",@"Attributes",@"Armaments",@"Arcane",@"Common",@"Support",@"Caster",@"Weapons",@"Armor",@"Artifacts",@"Secret"];
     
-    // 段子
-    FullChildViewController *ConsumablesVc = [[FullChildViewController alloc] init];
-    ConsumablesVc.title = @"Consumables";
-    [self addChildViewController:ConsumablesVc];
-    
-    // 段子
-    FullChildViewController *AttributesVc = [[FullChildViewController alloc] init];
-    AttributesVc.title = @"Attributes";
-    [self addChildViewController:AttributesVc];
-    
-    // 段子
-    FullChildViewController *ArmamentsVc = [[FullChildViewController alloc] init];
-    ArmamentsVc.title = @"Armaments";
-    [self addChildViewController:ArmamentsVc];
-    
-    FullChildViewController *ArcaneVc = [[FullChildViewController alloc] init];
-    ArcaneVc.title = @"Arcane";
-    [self addChildViewController:ArcaneVc];
-    
-    // 全部
-    FullChildViewController *CommonVc = [[FullChildViewController alloc] init];
-    CommonVc.title = @"Common";
-    [self addChildViewController:CommonVc];
-    
-    // 视频
-    FullChildViewController *SupportVc = [[FullChildViewController alloc] init];
-    SupportVc.title = @"Support";
-    [self addChildViewController:SupportVc];
-    
-    // 声音
-    FullChildViewController *CasterVc = [[FullChildViewController alloc] init];
-    CasterVc.title = @"Caster";
-    [self addChildViewController:CasterVc];
-    
-    // 图片
-    FullChildViewController *WeaponsVc = [[FullChildViewController alloc] init];
-    WeaponsVc.title = @"Weapons";
-    [self addChildViewController:WeaponsVc];
-    
-    // 段子
-    FullChildViewController *ArmorVc = [[FullChildViewController alloc] init];
-    ArmorVc.title = @"Armor";
-    [self addChildViewController:ArmorVc];
-    
-    
-    FullChildViewController *ArtifactsVc = [[FullChildViewController alloc] init];
-    ArtifactsVc.title = @"Artifacts";
-    [self addChildViewController:ArtifactsVc];
-    
-    
-    FullChildViewController *SecretVc = [[FullChildViewController alloc] init];
-    SecretVc.title = @"Secret";
-    [self addChildViewController:SecretVc];
+    for (int i = 0; i < items.count; i++) {
+        
+        FullChildViewController *a = [[FullChildViewController alloc]init];
+        a.title = [NSString stringWithFormat:@"%@",items[i]];
+        [self addChildViewController:a];
+    }
+ 
     
 }
 

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Clarity</string>
+		<string>Faerie Fire</string>
+		<string>Enchanted Mango</string>
+		<string>Tango</string>
+		<string>Healing Salve</string>
+		<string>Smoke of Deceit</string>
+		<string>Town Portal Scroll</string>
+		<string>Dust of Appearance</string>
+		<string>Animal Courier</string>
+		<string>Flying Courier</string>
+		<string>Observer Ward</string>
+		<string>Sentry Ward</string>
+		<string>Bottle</string>
+	</array>
+	<array>
+		<string>Iron Branch</string>
+		<string>Gauntlets of Strength</string>
+		<string>Slippers of Agility</string>
+		<string>Mantle of Intelligence</string>
+		<string>Circlet</string>
+		<string>Belt of Strength</string>
+		<string>Band of Elvenskin</string>
+		<string>Robe of the Magi</string>
+		<string>Ogre Club</string>
+		<string>Blade of Alacrity</string>
+		<string>Staff of Wizardry</string>
+	</array>
+	<array>
+		<string>Ring of Protection</string>
+		<string>Stout Shield</string>
+		<string>Quelling Blade</string>
+		<string>Orb of Venom</string>
+		<string>Blades of Attack</string>
+		<string>Chainmail</string>
+		<string>Quarterstaff</string>
+		<string>Helm of Iron Will</string>
+		<string>Broadsword</string>
+		<string>Claymore</string>
+		<string>Javelin</string>
+		<string>Mithril Hammer</string>
+	</array>
+	<array>
+		<string>Magic Stick</string>
+		<string>Sage's Mask</string>
+		<string>Ring of Regen</string>
+		<string>Boots of Speed</string>
+		<string>Gloves of Haste</string>
+		<string>Cloak</string>
+		<string>Ring of Health</string>
+		<string>Void Stone</string>
+		<string>Gem of True Sight</string>
+		<string>Morbid Mask</string>
+		<string>Shadow Amulet</string>
+		<string>Ghost Scepter</string>
+		<string>Blink Dagger</string>
+	</array>
+	<array>
+		<string>Magic Wand</string>
+		<string>Null Talisman</string>
+		<string>Wraith Band</string>
+		<string>Poor Man's Shield</string>
+		<string>Bracer</string>
+		<string>Soul Ring</string>
+		<string>Phase Boots</string>
+		<string>Power Treads</string>
+		<string>Oblivion Staff</string>
+		<string>Perseverance</string>
+		<string>Hand of Midas</string>
+		<string>Boots of Travel</string>
+		<string>Moon Shard</string>
+	</array>
+	<array>
+		<string>Ring of Basilius</string>
+		<string>Iron Talon</string>
+		<string>Headdress</string>
+		<string>Buckler</string>
+		<string>Urn of Shadows</string>
+		<string>Tranquil Boots</string>
+		<string>Ring of Aquila</string>
+		<string>Medallion of Courage</string>
+		<string>Arcane Boots</string>
+		<string>Drum of Endurance</string>
+		<string>Mekansm</string>
+		<string>Vladmir's Offering</string>
+		<string>Guardian Greaves</string>
+		<string>Pipe of Insight</string>
+	</array>
+	<array>
+		<string>Glimmer Cape</string>
+		<string>Force Staff</string>
+		<string>Veil of Discord</string>
+		<string>Aether Lens</string>
+		<string>Necronomicon</string>
+		<string>Dagon</string>
+		<string>Eul's Scepter of Divinity</string>
+		<string>Solar Crest</string>
+		<string>Rod of Atos</string>
+		<string>Orchid Malevolence</string>
+		<string>Aghanim's Scepter</string>
+		<string>Refresher Orb</string>
+		<string>Scythe of Vyse</string>
+		<string>Octarine Core</string>
+	</array>
+	<array>
+		<string>Crystalys</string>
+		<string>Armlet of Mordiggian</string>
+		<string>Shadow Blade</string>
+		<string>Skull Basher</string>
+		<string>Battle Fury</string>
+		<string>Ethereal Blade</string>
+		<string>Silver Edge</string>
+		<string>Radiance</string>
+		<string>Monkey King Bar</string>
+		<string>Daedalus</string>
+		<string>Butterfly</string>
+		<string>Divine Rapier</string>
+		<string>Abyssal Blade</string>
+	</array>
+	<array>
+		<string>Hood of Defiance</string>
+		<string>Vanguard</string>
+		<string>Blade Mail</string>
+		<string>Soul Booster</string>
+		<string>Crimson Guard</string>
+		<string>Black King Bar</string>
+		<string>Lotus Orb</string>
+		<string>Shiva's Guard</string>
+		<string>Bloodstone</string>
+		<string>Manta Style</string>
+		<string>Linken's Sphere</string>
+		<string>Assault Cuirass</string>
+		<string>Heart of Tarrasque</string>
+	</array>
+	<array>
+		<string>Mask of Madness</string>
+		<string>Helm of the Dominator</string>
+		<string>Dragon Lance</string>
+		<string>Sange</string>
+		<string>Yasha</string>
+		<string>Maelstrom</string>
+		<string>Diffusal Blade</string>
+		<string>Desolator</string>
+		<string>Heaven's Halberd</string>
+		<string>Sange and Yasha</string>
+		<string>Eye of Skadi</string>
+		<string>Mjollnir</string>
+		<string>Satanic</string>
+	</array>
+	<array>
+		<string>Energy Booster</string>
+		<string>Vitality Booster</string>
+		<string>Point Booster</string>
+		<string>Platemail</string>
+		<string>Talisman of Evasion</string>
+		<string>Hyperstone</string>
+		<string>Ultimate Orb</string>
+		<string>Demon Edge</string>
+		<string>Mystic Staff</string>
+		<string>Reaver</string>
+		<string>Eaglesong</string>
+		<string>Sacred Relic</string>
+	</array>
+</array>
+</plist>
